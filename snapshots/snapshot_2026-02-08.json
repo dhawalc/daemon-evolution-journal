@@ -4,20 +4,20 @@
     "version": "2.0.0",
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
-    "energy": 100,
-    "cycles": 13459,
-    "uptime_seconds": 13118.039255,
-    "uptime_human": "3:38:38",
-    "start_time": "2026-02-08T19:58:36.008700",
+    "energy": 99.99444444444444,
+    "cycles": 13483,
+    "uptime_seconds": 30.941159,
+    "uptime_human": "0:00:30",
+    "start_time": "2026-02-08T23:38:43.784375",
     "metrics": {
-      "tasks_completed": 496,
+      "tasks_completed": 500,
       "tasks_failed": 4,
       "evolutions": 0,
-      "goals_generated": 613,
-      "api_calls_local": 364,
-      "api_calls_cloud": 132,
+      "goals_generated": 623,
+      "api_calls_local": 367,
+      "api_calls_cloud": 133,
       "cost_today": 0.0,
-      "uptime_seconds": 13134.941688
+      "uptime_seconds": 60.277477
     },
     "subsystems": {
       "heartbeat": {
@@ -51,10 +51,10 @@
         "last_restart": null
       },
       "dashboard": {
-        "running": true,
-        "restarts": 0,
-        "status": "running",
-        "last_restart": null
+        "running": false,
+        "restarts": 2,
+        "status": "restarting",
+        "last_restart": "2026-02-08T23:39:08.800405"
       },
       "missions": {
         "running": true,
@@ -65,247 +65,155 @@
     },
     "recent_activity": [
       {
-        "timestamp": "2026-02-08T23:34:42.194115",
-        "cycle": 13429,
+        "timestamp": "2026-02-08T23:38:43.785003",
+        "cycle": 13476,
+        "category": "RECOVERY",
+        "message": "Restored state from crash. Cycles: 13476, Energy: 99.99444444444444",
+        "data": {},
+        "energy": 99.99444444444444
+      },
+      {
+        "timestamp": "2026-02-08T23:38:43.785033",
+        "cycle": 13476,
+        "category": "DAEMON",
+        "message": "All systems initializing...",
+        "data": {},
+        "energy": 99.99444444444444
+      },
+      {
+        "timestamp": "2026-02-08T23:38:43.785237",
+        "cycle": 13476,
+        "category": "SUPERVISOR",
+        "message": "All 7 subsystems launched",
+        "data": {},
+        "energy": 99.99444444444444
+      },
+      {
+        "timestamp": "2026-02-08T23:38:44.723046",
+        "cycle": 13477,
         "category": "RESOURCE",
         "message": "GPU VRAM cache cleared: 23.8GB",
         "data": {},
         "energy": 99.99444444444444
       },
       {
-        "timestamp": "2026-02-08T23:34:47.637243",
-        "cycle": 13430,
+        "timestamp": "2026-02-08T23:38:53.791571",
+        "cycle": 13478,
+        "category": "SUPERVISOR",
+        "message": "Restarting dashboard (restart #1)",
+        "data": {
+          "error": null
+        },
+        "energy": 99.99444444444444
+      },
+      {
+        "timestamp": "2026-02-08T23:38:53.810865",
+        "cycle": 13478,
+        "category": "GOAL_START",
+        "message": "[MAINTAIN] Verify all Python dependencies are up to date",
+        "data": {
+          "module": "motivation_engine",
+          "priority": 50,
+          "category": "MAINTAIN",
+          "goal_full": "Verify all Python dependencies are up to date",
+          "reasoning": "Keeping systems clean, fast, and reliable",
+          "enhancement": "System hygiene",
+          "start_time": "2026-02-08T23:38:53.810855"
+        },
+        "energy": 99.98888888888888
+      },
+      {
+        "timestamp": "2026-02-08T23:38:54.411942",
+        "cycle": 13479,
         "category": "GOAL_DONE",
-        "message": "Completed: Discover new APIs that could be useful for data gathering or",
+        "message": "Completed: Verify all Python dependencies are up to date",
         "data": {
           "energy": 100,
           "module": "motivation_engine",
-          "priority": 30,
-          "category": "EXPLORE",
-          "goal_full": "Discover new APIs that could be useful for data gathering or automation",
-          "model": "local_medium",
-          "duration_sec": 25.8
+          "priority": 50,
+          "category": "MAINTAIN",
+          "goal_full": "Verify all Python dependencies are up to date",
+          "model": "local_tiny",
+          "duration_sec": 0.6
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-08T23:34:57.647696",
-        "cycle": 13432,
-        "category": "LOOP_DETECT",
-        "message": "Skipped: Compare current skill inventory against skill inventory from",
-        "data": {},
-        "energy": 99.99444444444444
-      },
-      {
-        "timestamp": "2026-02-08T23:35:07.650875",
-        "cycle": 13434,
-        "category": "LOOP_DETECT",
-        "message": "Skipped: Nightly optimization: clean logs, compact memory, defragment",
-        "data": {},
-        "energy": 99.98888888888888
-      },
-      {
-        "timestamp": "2026-02-08T23:35:17.652376",
-        "cycle": 13436,
+        "timestamp": "2026-02-08T23:39:04.413053",
+        "cycle": 13481,
         "category": "INTROSPECT",
         "message": "Generating new goals...",
         "data": {},
-        "energy": 99.98888888888888
+        "energy": 100
       },
       {
-        "timestamp": "2026-02-08T23:35:17.652766",
-        "cycle": 13436,
-        "category": "LOOP_DETECT",
-        "message": "Skipped: Audit all modules for unused code and optimization opportuni",
-        "data": {},
-        "energy": 99.98333333333332
-      },
-      {
-        "timestamp": "2026-02-08T23:35:27.655139",
-        "cycle": 13438,
-        "category": "LOOP_DETECT",
-        "message": "Skipped: Compare current skill inventory against skill inventory from",
-        "data": {},
-        "energy": 99.97777777777776
-      },
-      {
-        "timestamp": "2026-02-08T23:35:37.657147",
-        "cycle": 13440,
-        "category": "LOOP_DETECT",
-        "message": "Skipped: Nightly optimization: clean logs, compact memory, defragment",
-        "data": {},
-        "energy": 99.9722222222222
-      },
-      {
-        "timestamp": "2026-02-08T23:35:42.218401",
-        "cycle": 13441,
-        "category": "RESOURCE",
-        "message": "GPU VRAM cache cleared: 23.8GB",
-        "data": {},
-        "energy": 99.9722222222222
-      },
-      {
-        "timestamp": "2026-02-08T23:35:47.658411",
-        "cycle": 13442,
-        "category": "INTROSPECT",
-        "message": "Generating new goals...",
-        "data": {},
-        "energy": 99.9722222222222
-      },
-      {
-        "timestamp": "2026-02-08T23:35:47.658709",
-        "cycle": 13442,
+        "timestamp": "2026-02-08T23:39:04.413373",
+        "cycle": 13481,
         "category": "GOAL_START",
-        "message": "[CREATE] Build an MCP server for a useful external service",
+        "message": "[CREATE] Create a GitHub Action that automates a common workflow",
         "data": {
           "module": "motivation_engine",
           "priority": 25,
           "category": "CREATE",
-          "goal_full": "Build an MCP server for a useful external service",
+          "goal_full": "Create a GitHub Action that automates a common workflow",
           "reasoning": "Building new products and shipping real code",
           "enhancement": "Product portfolio",
-          "start_time": "2026-02-08T23:35:47.658706"
-        },
-        "energy": 99.96666666666664
-      },
-      {
-        "timestamp": "2026-02-08T23:35:58.237649",
-        "cycle": 13444,
-        "category": "GOAL_DONE",
-        "message": "Completed: Build an MCP server for a useful external service",
-        "data": {
-          "energy": 100,
-          "module": "motivation_engine",
-          "priority": 25,
-          "category": "CREATE",
-          "goal_full": "Build an MCP server for a useful external service",
-          "model": "claude_code_opus",
-          "duration_sec": 10.6
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-08T23:36:08.242030",
-        "cycle": 13446,
-        "category": "GOAL_START",
-        "message": "[EXPLORE] Investigate new vector database options for improved memory retrieval",
-        "data": {
-          "module": "motivation_engine",
-          "priority": 30,
-          "category": "EXPLORE",
-          "goal_full": "Investigate new vector database options for improved memory retrieval",
-          "reasoning": "Curiosity-driven discovery of new tools and techniques",
-          "enhancement": "Knowledge breadth",
-          "start_time": "2026-02-08T23:36:08.242013"
+          "start_time": "2026-02-08T23:39:04.413370"
         },
         "energy": 99.99444444444444
       },
       {
-        "timestamp": "2026-02-08T23:36:32.130965",
-        "cycle": 13451,
-        "category": "GOAL_DONE",
-        "message": "Completed: Investigate new vector database options for improved memory ",
+        "timestamp": "2026-02-08T23:39:08.800425",
+        "cycle": 13481,
+        "category": "SUPERVISOR",
+        "message": "Restarting dashboard (restart #2)",
         "data": {
-          "energy": 100,
-          "module": "motivation_engine",
-          "priority": 30,
-          "category": "EXPLORE",
-          "goal_full": "Investigate new vector database options for improved memory retrieval",
-          "model": "local_medium",
-          "duration_sec": 23.9
+          "error": null
         },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-08T23:36:42.133792",
-        "cycle": 13453,
-        "category": "LOOP_DETECT",
-        "message": "Skipped: Discover new APIs that could be useful for data gathering or",
-        "data": {},
         "energy": 99.99444444444444
       },
       {
-        "timestamp": "2026-02-08T23:36:42.239715",
-        "cycle": 13453,
-        "category": "RESOURCE",
-        "message": "GPU VRAM cache cleared: 23.8GB",
-        "data": {},
-        "energy": 99.99444444444444
-      },
-      {
-        "timestamp": "2026-02-08T23:36:52.135431",
-        "cycle": 13455,
-        "category": "GOAL_START",
-        "message": "[BENCHMARK] Count total lines of code, test coverage, and module complexity metrics",
-        "data": {
-          "module": "motivation_engine",
-          "priority": 35,
-          "category": "BENCHMARK",
-          "goal_full": "Count total lines of code, test coverage, and module complexity metrics",
-          "reasoning": "Measuring performance to identify improvement targets",
-          "enhancement": "Performance awareness",
-          "start_time": "2026-02-08T23:36:52.135421"
-        },
-        "energy": 99.98888888888888
-      },
-      {
-        "timestamp": "2026-02-08T23:37:11.423076",
-        "cycle": 13459,
-        "category": "GOAL_DONE",
-        "message": "Completed: Count total lines of code, test coverage, and module complex",
-        "data": {
-          "energy": 100,
-          "module": "motivation_engine",
-          "priority": 35,
-          "category": "BENCHMARK",
-          "goal_full": "Count total lines of code, test coverage, and module complexity metrics",
-          "model": "local_medium",
-          "duration_sec": 19.3
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-08T23:37:14.047657",
-        "cycle": 13459,
+        "timestamp": "2026-02-08T23:39:14.725145",
+        "cycle": 13483,
         "category": "MISSION",
         "message": "Executing: End of day: write journal + metrics + plan tomorrow",
         "data": {},
-        "energy": 100
+        "energy": 99.99444444444444
       },
       {
-        "timestamp": "2026-02-08T23:37:14.047835",
-        "cycle": 13459,
+        "timestamp": "2026-02-08T23:39:14.725391",
+        "cycle": 13483,
         "category": "JOURNAL",
         "message": "Writing daily evolution journal entry",
         "data": {},
-        "energy": 100
+        "energy": 99.99444444444444
       }
     ],
-    "goal_queue_depth": 2,
+    "goal_queue_depth": 4,
     "model_router": {
-      "total_calls": 374,
-      "local_calls": 374,
+      "total_calls": 1,
+      "local_calls": 1,
       "cloud_calls": 0,
       "local_ratio": "100.0%",
       "force_local_only": false,
       "per_tier": {
         "local_tiny": {
-          "calls": 98,
+          "calls": 1,
           "tokens": 0,
           "errors": 0,
-          "avg_latency": 0.9532339937832895
+          "avg_latency": 0.6009190082550049
         },
         "local_medium": {
-          "calls": 270,
+          "calls": 0,
           "tokens": 0,
           "errors": 0,
-          "avg_latency": 22.909726956155573
+          "avg_latency": 0
         },
         "local_heavy": {
-          "calls": 7,
+          "calls": 1,
           "tokens": 0,
           "errors": 0,
-          "avg_latency": 26.039756093706405
+          "avg_latency": 32.82355332374573
         },
         "cloud_smart": {
           "calls": 0,
@@ -322,94 +230,33 @@
       }
     },
     "resource_usage": {
-      "timestamp": "2026-02-08T23:37:14.048023",
-      "memory_mb": 555.999232,
-      "gpu_vram_mb": 23793.0,
-      "gpu_util": 0.0,
-      "disk_used_gb": 369.186131968,
+      "timestamp": "2026-02-08T23:39:14.725594",
+      "memory_mb": 544.075776,
+      "gpu_vram_mb": 23799.0,
+      "gpu_util": 90.0,
+      "disk_used_gb": 369.18706176,
       "api_cost_today": 0.0,
-      "memory_percent": 0.8256584139550882,
-      "disk_free_gb": 563.634679808,
+      "memory_percent": 0.8079520913502699,
+      "disk_free_gb": 563.633750016,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
-      "missions_executed": 14,
+      "missions_executed": 0,
       "current_mission": null,
-      "recent_missions": [
-        {
-          "mission": "research_exploration",
-          "timestamp": "2026-02-08T21:00:44.030959",
-          "result": "{'research': 'No response'}",
-          "success": true
-        },
-        {
-          "mission": "research_exploration",
-          "timestamp": "2026-02-08T21:16:04.704149",
-          "result": "{'research': '**1. The Topic**\\nMemory-Augmented Architectures for Autonomous Agents (specifically GraphRAG and Vector Databases).\\n\\n**2. Why it matters for autonomy**\\nCurrent Large Language Models suffer from a \"forgetting\" problem; they are stateless in the moment and lack the ability to correla",
-          "success": true
-        },
-        {
-          "mission": "research_exploration",
-          "timestamp": "2026-02-08T21:31:32.689419",
-          "result": "{'research': '1. **The Topic**\\nNeuro-symbolic AI combined with GraphRAG (Graph Retrieval-Augmented Generation).\\n\\n2. **Why it matters for autonomy**\\nStandard Large Language Models (LLMs) are prone to hallucination and lack true logical consistency. To achieve the level of autonomy required for gl",
-          "success": true
-        },
-        {
-          "mission": "research_exploration",
-          "timestamp": "2026-02-08T21:46:45.321411",
-          "result": "{'research': '**1. The Topic**\\nNeuro-symbolic AI Integration (specifically the fusion of Large Language Models with Symbolic Logic engines).\\n\\n**2. Why it matters for autonomy**\\nCurrent generative models (LLMs) are probabilistic and prone to \"hallucinations\"\u2014generating plausible-sounding but fact",
-          "success": true
-        },
-        {
-          "mission": "daily_journal",
-          "timestamp": "2026-02-08T22:02:26.545276",
-          "result": "{'journal': {'date': '2026-02-08', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-08.md', 'pushed': False}, 'tomorrow_plan': \"Since I do not have access to your specific calendar or task logs, I have generated a **hypothetical priority list** based on common software developme",
-          "success": true
-        },
-        {
-          "mission": "daily_journal",
-          "timestamp": "2026-02-08T22:17:59.076869",
-          "result": "{'journal': {'date': '2026-02-08', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-08.md', 'pushed': False}, 'tomorrow_plan': \"Since you did not provide the specific details of today's activities, I have generated a hypothetical priority list based on a standard software develo",
-          "success": true
-        },
-        {
-          "mission": "daily_journal",
-          "timestamp": "2026-02-08T22:34:08.683355",
-          "result": "{'journal': {'date': '2026-02-08', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-08.md', 'pushed': False}, 'tomorrow_plan': 'Since you haven\\'t provided the specific details of today\\'s activities, I cannot generate a tailored list. However, here is a **hypothetical** priorit",
-          "success": true
-        },
-        {
-          "mission": "daily_journal",
-          "timestamp": "2026-02-08T22:49:47.093042",
-          "result": "{'journal': {'date': '2026-02-08', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-08.md', 'pushed': False}, 'tomorrow_plan': \"Since you haven't provided specific details about today's activities, I have generated a hypothetical priority list based on a standard software develo",
-          "success": true
-        },
-        {
-          "mission": "daily_journal",
-          "timestamp": "2026-02-08T23:05:56.738458",
-          "result": "{'journal': {'date': '2026-02-08', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-08.md', 'pushed': False}, 'tomorrow_plan': 'I don\\'t have access to the details of your current session or the specific tasks you completed today. To generate the most accurate priority list, ple",
-          "success": true
-        },
-        {
-          "mission": "daily_journal",
-          "timestamp": "2026-02-08T23:22:14.046834",
-          "result": "{'journal': {'date': '2026-02-08', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-08.md', 'pushed': False}, 'tomorrow_plan': \"Since you did not provide the specific details of today's activities, here is a **template** based on common development scenarios. You should replace ",
-          "success": true
-        }
-      ],
+      "recent_missions": [],
       "github_contributions": 0,
-      "journal_entries": 6,
+      "journal_entries": 0,
       "revenue_services": 0
     }
   },
   "metrics": {
-    "tasks_completed": 496,
+    "tasks_completed": 499,
     "tasks_failed": 4,
     "evolutions": 0,
-    "goals_generated": 610,
-    "api_calls_local": 364,
+    "goals_generated": 623,
+    "api_calls_local": 367,
     "api_calls_cloud": 132,
     "cost_today": 0.0,
-    "uptime_seconds": 13114.849619
+    "uptime_seconds": 30.141031
   }
 }
