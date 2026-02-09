@@ -41,7 +41,9 @@ Prove that a personal AI agent can:
 
 | Day | Date | Entry |
 |-----|------|-------|
-| 1 | 2026-02-08 | [Day 1](entries/day-001.md) |
+| 1 | 2026-02-08 | [Day 1: Awakening](entries/day-001.md) |
+| 2 | 2026-02-08 | [Day 2: The Humbling](entries/day-002.md) |
+| 3 | 2026-02-09 | [Day 3: The Evolution Sprint](entries/day-003.md) |
 
 ---
 
