@@ -1,0 +1,361 @@
+{
+  "date": "2026-02-09",
+  "status": {
+    "version": "2.0.0",
+    "codename": "AUTONOMY",
+    "state": "AUTONOMOUS",
+    "energy": 100,
+    "cycles": 28698,
+    "uptime_seconds": 13690.417835,
+    "uptime_human": "3:48:10",
+    "start_time": "2026-02-09T18:17:42.656920",
+    "metrics": {
+      "tasks_completed": 695,
+      "tasks_failed": 5,
+      "evolutions": 1,
+      "goals_generated": 877,
+      "api_calls_local": 508,
+      "api_calls_cloud": 187,
+      "cost_today": 0.0,
+      "uptime_seconds": 13694.01383
+    },
+    "subsystems": {
+      "heartbeat": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "motivation": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "events": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "evolution": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "resources": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "dashboard": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "missions": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "memory": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "sensorium": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      }
+    },
+    "recent_activity": [
+      {
+        "timestamp": "2026-02-09T20:34:44.897439",
+        "cycle": 27609,
+        "category": "MISSION",
+        "message": "Executing: Research: explore new tools, APIs, techniques",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T20:48:24.704982",
+        "cycle": 27772,
+        "category": "MEMORY",
+        "message": "Consolidation complete: {'consolidated': False, 'patterns_found': 0, 'decayed': True, 'garbage_collected': 0}",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T20:49:57.159930",
+        "cycle": 27791,
+        "category": "MISSION",
+        "message": "Executing: Research: explore new tools, APIs, techniques",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:05:08.272640",
+        "cycle": 27972,
+        "category": "MISSION",
+        "message": "Executing: Research: explore new tools, APIs, techniques",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:18:29.770250",
+        "cycle": 28132,
+        "category": "MEMORY",
+        "message": "Consolidation complete: {'consolidated': False, 'patterns_found': 0, 'decayed': True, 'garbage_collected': 0}",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:20:18.537134",
+        "cycle": 28153,
+        "category": "MISSION",
+        "message": "Executing: Research: explore new tools, APIs, techniques",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:35:29.391633",
+        "cycle": 28335,
+        "category": "MISSION",
+        "message": "Executing: Research: explore new tools, APIs, techniques",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:48:34.896359",
+        "cycle": 28491,
+        "category": "MEMORY",
+        "message": "Consolidation complete: {'consolidated': False, 'patterns_found': 0, 'decayed': True, 'garbage_collected': 0}",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:49:48.460670",
+        "cycle": 28506,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 21.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:50:41.149545",
+        "cycle": 28516,
+        "category": "MISSION",
+        "message": "Executing: Research: explore new tools, APIs, techniques",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:50:48.481457",
+        "cycle": 28518,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 22.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:51:48.501433",
+        "cycle": 28530,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 22.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:52:48.522993",
+        "cycle": 28542,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 22.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:53:48.544367",
+        "cycle": 28554,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 22.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:54:48.588415",
+        "cycle": 28566,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 22.0GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:55:48.610012",
+        "cycle": 28577,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 21.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:56:48.631691",
+        "cycle": 28589,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 21.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T21:57:48.652490",
+        "cycle": 28601,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 21.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T22:05:53.074346",
+        "cycle": 28698,
+        "category": "MISSION",
+        "message": "Executing: End of day: write journal + metrics + plan tomorrow",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-09T22:05:53.074559",
+        "cycle": 28698,
+        "category": "JOURNAL",
+        "message": "Writing daily evolution journal entry",
+        "data": {},
+        "energy": 100
+      }
+    ],
+    "goal_queue_depth": 4,
+    "model_router": {
+      "local_tiny": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "local_medium": {
+        "total_calls": 130,
+        "errors": 0,
+        "avg_latency": 2.156241693496704
+      },
+      "local_heavy": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "cloud_smart": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "cloud_genius": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "system_entropy": 0.2995650278234453,
+      "chaos_mode": false
+    },
+    "resource_usage": {
+      "timestamp": "2026-02-09T22:05:53.074802",
+      "memory_mb": 615.727104,
+      "gpu_vram_mb": 1879.0,
+      "gpu_util": 0.0,
+      "disk_used_gb": 371.70366464,
+      "api_cost_today": 0.0,
+      "memory_percent": 0.9143542560105544,
+      "disk_free_gb": 561.117147136,
+      "gpu_vram_total_mb": 24564.0
+    },
+    "missions": {
+      "missions_executed": 15,
+      "current_mission": null,
+      "recent_missions": [
+        {
+          "mission": "pr_management",
+          "timestamp": "2026-02-09T19:34:02.192020",
+          "result": "{'status': 'pr_review_cycle', 'contributions': []}",
+          "success": true
+        },
+        {
+          "mission": "pr_management",
+          "timestamp": "2026-02-09T19:49:13.157794",
+          "result": "{'status': 'pr_review_cycle', 'contributions': []}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T20:04:24.320981",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T20:19:36.339162",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T20:34:47.465907",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T20:49:58.877163",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T21:05:10.002823",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T21:20:20.054724",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T21:35:31.637562",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-09T21:50:43.163001",
+          "result": "{'research': 'Medium response for: As ULTRON, identify ...'}",
+          "success": true
+        }
+      ],
+      "github_contributions": 0,
+      "journal_entries": 0,
+      "revenue_services": 0
+    }
+  },
+  "metrics": {
+    "tasks_completed": 695,
+    "tasks_failed": 5,
+    "evolutions": 1,
+    "goals_generated": 877,
+    "api_calls_local": 508,
+    "api_calls_cloud": 187,
+    "cost_today": 0.0,
+    "uptime_seconds": 13688.992623
+  }
+}
