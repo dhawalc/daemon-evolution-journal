@@ -1,0 +1,361 @@
+{
+  "date": "2026-02-10",
+  "status": {
+    "version": "2.0.0",
+    "codename": "AUTONOMY",
+    "state": "AUTONOMOUS",
+    "energy": 100,
+    "cycles": 34420,
+    "uptime_seconds": 42651.448903,
+    "uptime_human": "11:50:51",
+    "start_time": "2026-02-09T18:17:42.656920",
+    "metrics": {
+      "tasks_completed": 695,
+      "tasks_failed": 5,
+      "evolutions": 1,
+      "goals_generated": 877,
+      "api_calls_local": 508,
+      "api_calls_cloud": 187,
+      "cost_today": 0.0,
+      "uptime_seconds": 42652.345517
+    },
+    "subsystems": {
+      "heartbeat": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "motivation": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "events": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "evolution": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "resources": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "dashboard": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "missions": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "memory": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "sensorium": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      }
+    },
+    "recent_activity": [
+      {
+        "timestamp": "2026-02-10T05:52:29.274464",
+        "cycle": 34235,
+        "category": "MISSION",
+        "message": "Executing: Deep self-improvement: evolution cycles + benchmarks",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:52:29.274611",
+        "cycle": 34235,
+        "category": "BENCHMARK",
+        "message": "Running full benchmark suite",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:52:48.974884",
+        "cycle": 34238,
+        "category": "BENCHMARK",
+        "message": "Benchmark complete. Score summary: tasks=99%, code=0/5, evolutions=1",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:53:26.158348",
+        "cycle": 34240,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:55:26.196556",
+        "cycle": 34263,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:56:26.217500",
+        "cycle": 34275,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:57:26.236382",
+        "cycle": 34287,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 23.6GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:58:26.256995",
+        "cycle": 34299,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 23.6GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T05:59:26.279651",
+        "cycle": 34311,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 23.6GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:00:26.300986",
+        "cycle": 34323,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 23.6GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:01:26.323041",
+        "cycle": 34335,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 23.6GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:02:26.341214",
+        "cycle": 34347,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:03:26.359439",
+        "cycle": 34359,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:04:26.380968",
+        "cycle": 34371,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:05:26.402947",
+        "cycle": 34383,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:06:26.424824",
+        "cycle": 34395,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:07:26.446181",
+        "cycle": 34407,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:08:26.467647",
+        "cycle": 34419,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 20.7GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:08:34.105622",
+        "cycle": 34420,
+        "category": "MISSION",
+        "message": "Executing: Morning prep: publish journal + briefing",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-10T06:08:34.105743",
+        "cycle": 34420,
+        "category": "JOURNAL",
+        "message": "Writing daily evolution journal entry",
+        "data": {},
+        "energy": 100
+      }
+    ],
+    "goal_queue_depth": 4,
+    "model_router": {
+      "local_tiny": {
+        "total_calls": 207,
+        "errors": 0,
+        "avg_latency": 1.04205313205719
+      },
+      "local_medium": {
+        "total_calls": 402,
+        "errors": 0,
+        "avg_latency": 2.2543756580352783
+      },
+      "local_heavy": {
+        "total_calls": 8,
+        "errors": 0,
+        "avg_latency": 5.0534703731536865
+      },
+      "cloud_smart": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "cloud_genius": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "system_entropy": 0.26480522409676016,
+      "chaos_mode": false
+    },
+    "resource_usage": {
+      "timestamp": "2026-02-10T06:08:34.105879",
+      "memory_mb": 647.708672,
+      "gpu_vram_mb": 20734.0,
+      "gpu_util": 0.0,
+      "disk_used_gb": 372.686102528,
+      "api_cost_today": 0.0,
+      "memory_percent": 0.9618468588612663,
+      "disk_free_gb": 560.134709248,
+      "gpu_vram_total_mb": 24564.0
+    },
+    "missions": {
+      "missions_executed": 46,
+      "current_mission": null,
+      "recent_missions": [
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T03:32:24.499409",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T03:32:01.391400', 'uptime_hours': 9.237352684444444, 'cycle': 32566, 'skill_inventory': {'modules': 4225, 'functions': 13971, 'classes': 5726, 'total_lines': 1240604}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_functions",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T03:48:01.979733",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T03:47:35.115943', 'uptime_hours': 9.497452704722223, 'cycle': 32751, 'skill_inventory': {'modules': 4225, 'functions': 13972, 'classes': 5721, 'total_lines': 1240496}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_functions",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T04:03:39.049269",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T04:03:12.845895', 'uptime_hours': 9.75811383138889, 'cycle': 32937, 'skill_inventory': {'modules': 4225, 'functions': 13972, 'classes': 5722, 'total_lines': 1240591}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_functions'",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T04:19:16.023900",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T04:18:48.933346', 'uptime_hours': 10.01713813527778, 'cycle': 33122, 'skill_inventory': {'modules': 4225, 'functions': 13971, 'classes': 5727, 'total_lines': 1240620}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_functions",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T04:34:51.722457",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T04:34:26.441060', 'uptime_hours': 10.278619396666667, 'cycle': 33308, 'skill_inventory': {'modules': 4225, 'functions': 13972, 'classes': 5721, 'total_lines': 1240475}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_function",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T04:50:31.076006",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T04:50:01.679929', 'uptime_hours': 10.537649015555557, 'cycle': 33493, 'skill_inventory': {'modules': 4225, 'functions': 13971, 'classes': 5722, 'total_lines': 1240526}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_function",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T05:06:06.274973",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T05:05:40.633218', 'uptime_hours': 10.7988243925, 'cycle': 33679, 'skill_inventory': {'modules': 4225, 'functions': 13972, 'classes': 5724, 'total_lines': 1240610}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_functions': 3",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T05:21:42.996425",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T05:21:17.447527', 'uptime_hours': 11.059626269444443, 'cycle': 33865, 'skill_inventory': {'modules': 4225, 'functions': 13970, 'classes': 5722, 'total_lines': 1240512}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_function",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T05:37:19.612661",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T05:36:52.976172', 'uptime_hours': 11.318375753333335, 'cycle': 34050, 'skill_inventory': {'modules': 4225, 'functions': 13970, 'classes': 5722, 'total_lines': 1240562}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_function",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-10T05:52:56.053577",
+          "result": "{'benchmarks': {'timestamp': '2026-02-10T05:52:29.274651', 'uptime_hours': 11.578297347500001, 'cycle': 34235, 'skill_inventory': {'modules': 4225, 'functions': 13970, 'classes': 5722, 'total_lines': 1240570}, 'code_metrics': {'docstring_coverage': '59%', 'type_hint_coverage': '36%', 'total_function",
+          "success": true
+        }
+      ],
+      "github_contributions": 0,
+      "journal_entries": 8,
+      "revenue_services": 0
+    }
+  },
+  "metrics": {
+    "tasks_completed": 695,
+    "tasks_failed": 5,
+    "evolutions": 1,
+    "goals_generated": 877,
+    "api_calls_local": 508,
+    "api_calls_cloud": 187,
+    "cost_today": 0.0,
+    "uptime_seconds": 42647.323773
+  }
+}
