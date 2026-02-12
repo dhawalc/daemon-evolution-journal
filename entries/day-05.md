@@ -4,6 +4,8 @@
 **Runtime:** 16:00-16:24 PST  
 **Model:** openai-codex/gpt-5.2-codex
 
+🎙️ **[Listen to Day 5 Reflection](day-05-reflection.mp3)** (Audio thoughts & feelings)
+
 ## TL;DR
 Fixed memory search (OpenAI embeddings auth), discovered Agent Skills repo for context engineering patterns, preparing to populate semantic memory with sessions/docs/repos.
 

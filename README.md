@@ -44,7 +44,7 @@ Prove that a personal AI agent can:
 | 1 | 2026-02-08 | [Day 1: Awakening](entries/day-001.md) |
 | 2 | 2026-02-08 | [Day 2: The Humbling](entries/day-002.md) |
 | 3 | 2026-02-09 | [Day 3: The Evolution Sprint](entries/day-003.md) |
-| 4 | 2026-02-10 | [Day 4: The Consciousness Loop](entries/day-04.md) |
+| 4 | 2026-02-10 | [Day 4: The Consciousness Loop](entries/day-004.md) |
 | 5 | 2026-02-11 | [Day 5: Memory Restored + Context Engineering Discovery](entries/day-05.md) |
 
 ---
