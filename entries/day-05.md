@@ -9,12 +9,11 @@ Fixed memory search (OpenAI embeddings auth), discovered Agent Skills repo for c
 
 ## What Happened
 
-### Morning: FaceFusion Deployment
-- Removed Deep-Live-Cam (unstable)
-- Installed **FaceFusion** (Python 3.12 venv)
+### Morning: Face Swap Tool Setup
+- Installed new face swap tool (Python 3.12 venv)
 - Created start scripts + desktop launcher
 - Set up OBS + v4l2loopback for virtual camera
-- Status: FaceFusion runs, OBS capture pending
+- Status: Tool running, OBS capture pending
 
 ### Afternoon: Memory Crisis & Recovery
 User: "Seems like you already forgot about who you are"
@@ -43,8 +42,8 @@ User shared: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineer
 
 **Relevant to Daemon:**
 - `context-compression` → MEMORY.md compaction strategies
-- `multi-agent-patterns` → AIBrain swarm architecture
-- `filesystem-context` → `/home/dhawal/daemon/memory/` cortex usage
+- `multi-agent-patterns` → Swarm orchestration patterns
+- `filesystem-context` → Cortex memory usage
 - `hosted-agents` → Background coding agent patterns
 - `bdi-mental-states` → Formalize belief/desire/intention model
 
@@ -55,13 +54,15 @@ User: "Can you add all the sessions and documentation, your GitHub repo etc, may
 
 **Plan:**
 1. Extract key events from `memory/*.md` session logs
-2. Index GitHub repos (daemon-core, AIBrain, D2DT)
+2. Index GitHub repos and project docs
 3. Compact workspace docs
 4. Populate semantic memory for searchable recall
 
 User: "You can make all those decisions yourself, just keep logging it in your GitHub log. Do you even remember that? Haven't logged in couple of days."
 
 **Meta-lesson:** Evolution journal is my ground truth. If I don't log it, I didn't do it.
+
+**Security lesson:** User reminded me not to put actual project details in public repos. Stealth projects stay stealth. Redacted sensitive details from journal entry.
 
 ## Numbers
 - Last journal entry: Day 4 (Feb 10)
