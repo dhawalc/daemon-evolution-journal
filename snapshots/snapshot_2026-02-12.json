@@ -5,9 +5,9 @@
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
     "energy": 100,
-    "cycles": 72566,
-    "uptime_seconds": 30.143845,
-    "uptime_human": "0:00:30",
+    "cycles": 72752,
+    "uptime_seconds": 962.708737,
+    "uptime_human": "0:16:02",
     "start_time": "2026-02-12T22:59:54.044477",
     "metrics": {
       "tasks_completed": 695,
@@ -17,7 +17,7 @@
       "api_calls_local": 508,
       "api_calls_cloud": 187,
       "cost_today": 0.0,
-      "uptime_seconds": 50.294996
+      "uptime_seconds": 981.045754
     },
     "subsystems": {
       "heartbeat": {
@@ -115,6 +115,30 @@
         "message": "Writing daily evolution journal entry",
         "data": {},
         "energy": 100
+      },
+      {
+        "timestamp": "2026-02-12T23:00:44.700483",
+        "cycle": 72571,
+        "category": "JOURNAL",
+        "message": "Published journal entry: 2026-02-12",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-12T23:15:56.752999",
+        "cycle": 72752,
+        "category": "MISSION",
+        "message": "Executing: End of day: write journal + metrics + plan tomorrow",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-12T23:15:56.753131",
+        "cycle": 72752,
+        "category": "JOURNAL",
+        "message": "Writing daily evolution journal entry",
+        "data": {},
+        "energy": 100
       }
     ],
     "goal_queue_depth": 4,
@@ -125,45 +149,52 @@
         "avg_latency": 0
       },
       "local_medium": {
-        "total_calls": 0,
+        "total_calls": 5,
         "errors": 0,
-        "avg_latency": 0
+        "avg_latency": 2.2242418766021728
       },
       "local_heavy": {
-        "total_calls": 0,
+        "total_calls": 1,
         "errors": 0,
-        "avg_latency": 0
+        "avg_latency": 20.48395800590515
       },
       "cloud_smart": {
-        "total_calls": 0,
+        "total_calls": 1,
         "errors": 0,
-        "avg_latency": 0
+        "avg_latency": 94.90207552909851
       },
       "cloud_genius": {
         "total_calls": 0,
         "errors": 0,
         "avg_latency": 0
       },
-      "system_entropy": 0.0,
+      "system_entropy": 0.7,
       "chaos_mode": false
     },
     "resource_usage": {
-      "timestamp": "2026-02-12T23:00:24.188361",
-      "memory_mb": 128.774144,
-      "gpu_vram_mb": 7432.0,
-      "gpu_util": 32.0,
-      "disk_used_gb": 411.074813952,
+      "timestamp": "2026-02-12T23:15:56.753254",
+      "memory_mb": 137.117696,
+      "gpu_vram_mb": 1641.0,
+      "gpu_util": 8.0,
+      "disk_used_gb": 411.15717632,
       "api_cost_today": 0.0,
-      "memory_percent": 0.1912295355383173,
-      "disk_free_gb": 521.745997824,
+      "memory_percent": 0.20361970583290534,
+      "disk_free_gb": 521.663635456,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
-      "missions_executed": 0,
+      "missions_executed": 1,
       "current_mission": null,
-      "recent_missions": [],
+      "recent_missions": [
+        {
+          "mission": "daily_journal",
+          "timestamp": "2026-02-12T23:00:48.500198",
+          "result": "{'journal': {'date': '2026-02-12', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-12.md', 'pushed': False}, 'tomorrow_plan': '1. Review and approve any pending contributions or changes to ensure that all feedback is thoroughly considered and incorporated into the project.\\n\\n2",
+          "success": true
+        }
+      ],
       "github_contributions": 0,
-      "journal_entries": 0,
+      "journal_entries": 1,
       "revenue_services": 0
     }
   },
@@ -175,6 +206,6 @@
     "api_calls_local": 508,
     "api_calls_cloud": 187,
     "cost_today": 0.0,
-    "uptime_seconds": 25.201582
+    "uptime_seconds": 960.969483
   }
 }
