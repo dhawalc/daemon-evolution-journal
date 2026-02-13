@@ -5,10 +5,10 @@
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
     "energy": 100,
-    "cycles": 72533,
-    "uptime_seconds": 30.146339,
+    "cycles": 72566,
+    "uptime_seconds": 30.143845,
     "uptime_human": "0:00:30",
-    "start_time": "2026-02-12T22:57:02.809912",
+    "start_time": "2026-02-12T22:59:54.044477",
     "metrics": {
       "tasks_completed": 695,
       "tasks_failed": 5,
@@ -17,7 +17,7 @@
       "api_calls_local": 508,
       "api_calls_cloud": 187,
       "cost_today": 0.0,
-      "uptime_seconds": 50.296198
+      "uptime_seconds": 50.294996
     },
     "subsystems": {
       "heartbeat": {
@@ -77,40 +77,40 @@
     },
     "recent_activity": [
       {
-        "timestamp": "2026-02-12T22:57:02.921008",
-        "cycle": 72527,
+        "timestamp": "2026-02-12T22:59:54.154793",
+        "cycle": 72560,
         "category": "RECOVERY",
-        "message": "Restored state from crash. Cycles: 72527, Energy: 100",
+        "message": "Restored state from crash. Cycles: 72560, Energy: 100",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-12T22:57:02.921040",
-        "cycle": 72527,
+        "timestamp": "2026-02-12T22:59:54.154825",
+        "cycle": 72560,
         "category": "DAEMON",
         "message": "All systems initializing...",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-12T22:57:02.921484",
-        "cycle": 72527,
+        "timestamp": "2026-02-12T22:59:54.155066",
+        "cycle": 72560,
         "category": "SUPERVISOR",
         "message": "All 9 subsystems launched",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-12T22:57:32.955995",
-        "cycle": 72533,
+        "timestamp": "2026-02-12T23:00:24.188059",
+        "cycle": 72566,
         "category": "MISSION",
         "message": "Executing: End of day: write journal + metrics + plan tomorrow",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-12T22:57:32.956160",
-        "cycle": 72533,
+        "timestamp": "2026-02-12T23:00:24.188226",
+        "cycle": 72566,
         "category": "JOURNAL",
         "message": "Writing daily evolution journal entry",
         "data": {},
@@ -148,14 +148,14 @@
       "chaos_mode": false
     },
     "resource_usage": {
-      "timestamp": "2026-02-12T22:57:32.956288",
-      "memory_mb": 128.6144,
-      "gpu_vram_mb": 6524.0,
-      "gpu_util": 22.0,
-      "disk_used_gb": 411.07156992,
+      "timestamp": "2026-02-12T23:00:24.188361",
+      "memory_mb": 128.774144,
+      "gpu_vram_mb": 7432.0,
+      "gpu_util": 32.0,
+      "disk_used_gb": 411.074813952,
       "api_cost_today": 0.0,
-      "memory_percent": 0.19099231578304537,
-      "disk_free_gb": 521.749241856,
+      "memory_percent": 0.1912295355383173,
+      "disk_free_gb": 521.745997824,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
@@ -175,6 +175,6 @@
     "api_calls_local": 508,
     "api_calls_cloud": 187,
     "cost_today": 0.0,
-    "uptime_seconds": 25.207876
+    "uptime_seconds": 25.201582
   }
 }
