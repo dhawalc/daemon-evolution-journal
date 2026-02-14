@@ -1,0 +1,361 @@
+{
+  "date": "2026-02-14",
+  "status": {
+    "version": "2.0.0",
+    "codename": "AUTONOMY",
+    "state": "AUTONOMOUS",
+    "energy": 100,
+    "cycles": 94374,
+    "uptime_seconds": 77999.47567,
+    "uptime_human": "21:39:59",
+    "start_time": "2026-02-13T08:25:38.244404",
+    "metrics": {
+      "tasks_completed": 695,
+      "tasks_failed": 5,
+      "evolutions": 1,
+      "goals_generated": 877,
+      "api_calls_local": 508,
+      "api_calls_cloud": 187,
+      "cost_today": 0.0,
+      "uptime_seconds": 78017.871381
+    },
+    "subsystems": {
+      "heartbeat": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "motivation": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "events": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "evolution": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "resources": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "dashboard": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "missions": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "memory": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "sensorium": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      }
+    },
+    "recent_activity": [
+      {
+        "timestamp": "2026-02-14T05:09:01.663873",
+        "cycle": 93723,
+        "category": "BENCHMARK",
+        "message": "Benchmark complete. Score summary: tasks=99%, code=5/5, evolutions=1",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:10:52.866702",
+        "cycle": 93745,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:11:52.884624",
+        "cycle": 93757,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:12:52.901610",
+        "cycle": 93769,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:13:52.919057",
+        "cycle": 93781,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:14:37.427150",
+        "cycle": 93787,
+        "category": "MEMORY",
+        "message": "Consolidation complete: {'consolidated': True, 'patterns_found': 1, 'decayed': True, 'garbage_collected': 0}",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:26:42.066972",
+        "cycle": 93932,
+        "category": "MISSION",
+        "message": "Executing: Deep self-improvement: evolution cycles + benchmarks",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:26:42.067126",
+        "cycle": 93932,
+        "category": "BENCHMARK",
+        "message": "Running full benchmark suite",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:27:46.910767",
+        "cycle": 93934,
+        "category": "BENCHMARK",
+        "message": "Benchmark complete. Score summary: tasks=99%, code=5/5, evolutions=1",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:29:38.046210",
+        "cycle": 93956,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:30:38.131498",
+        "cycle": 93968,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:31:38.148806",
+        "cycle": 93980,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:32:38.165530",
+        "cycle": 93992,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:45:37.673850",
+        "cycle": 94147,
+        "category": "MISSION",
+        "message": "Executing: Deep self-improvement: evolution cycles + benchmarks",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:45:37.674024",
+        "cycle": 94147,
+        "category": "BENCHMARK",
+        "message": "Running full benchmark suite",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:46:45.066837",
+        "cycle": 94148,
+        "category": "MEMORY",
+        "message": "Consolidation complete: {'consolidated': True, 'patterns_found': 1, 'decayed': True, 'garbage_collected': 0}",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:46:50.511933",
+        "cycle": 94150,
+        "category": "BENCHMARK",
+        "message": "Benchmark complete. Score summary: tasks=99%, code=5/5, evolutions=1",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T05:48:31.966514",
+        "cycle": 94169,
+        "category": "RESOURCE",
+        "message": "GPU VRAM cache cleared: 24.1GB",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T06:05:37.719757",
+        "cycle": 94374,
+        "category": "MISSION",
+        "message": "Executing: Morning prep: publish journal + briefing",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T06:05:37.719944",
+        "cycle": 94374,
+        "category": "JOURNAL",
+        "message": "Writing daily evolution journal entry",
+        "data": {},
+        "energy": 100
+      }
+    ],
+    "goal_queue_depth": 4,
+    "model_router": {
+      "local_tiny": {
+        "total_calls": 162,
+        "errors": 0,
+        "avg_latency": 0.7276098012924195
+      },
+      "local_medium": {
+        "total_calls": 427,
+        "errors": 0,
+        "avg_latency": 24.67196629047394
+      },
+      "local_heavy": {
+        "total_calls": 38,
+        "errors": 0,
+        "avg_latency": 40.80032252010546
+      },
+      "cloud_smart": {
+        "total_calls": 97,
+        "errors": 0,
+        "avg_latency": 30.14050850391388
+      },
+      "cloud_genius": {
+        "total_calls": 1,
+        "errors": 0,
+        "avg_latency": 36.75427532196045
+      },
+      "system_entropy": 0.7,
+      "chaos_mode": false
+    },
+    "resource_usage": {
+      "timestamp": "2026-02-14T06:05:37.720136",
+      "memory_mb": 735.657984,
+      "gpu_vram_mb": 1068.0,
+      "gpu_util": 0.0,
+      "disk_used_gb": 412.721721344,
+      "api_cost_today": 0.0,
+      "memory_percent": 1.0924517160477096,
+      "disk_free_gb": 520.099090432,
+      "gpu_vram_total_mb": 24564.0
+    },
+    "missions": {
+      "missions_executed": 74,
+      "current_mission": null,
+      "recent_missions": [
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T02:53:25.117125",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T02:50:54.420248', 'uptime_hours': 18.42007922888889, 'cycle': 92164, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functio",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T03:13:33.131259",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T03:10:21.653534', 'uptime_hours': 18.744852340277777, 'cycle': 92386, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T03:33:19.782609",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T03:30:49.224243', 'uptime_hours': 19.08579542361111, 'cycle': 92618, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functio",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T03:52:07.918484",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T03:49:39.608181', 'uptime_hours': 19.40028122333333, 'cycle': 92831, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functio",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T04:12:24.675914",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T04:09:17.252309', 'uptime_hours': 19.727185378333335, 'cycle': 93055, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T04:32:05.097477",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T04:29:34.389375', 'uptime_hours': 20.064266240833334, 'cycle': 93284, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T04:51:18.255982",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T04:48:28.821939', 'uptime_hours': 20.379787438333334, 'cycle': 93498, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T05:10:28.978126",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T05:07:58.977138', 'uptime_hours': 20.705389616666665, 'cycle': 93721, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T05:29:14.043270",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T05:26:42.067175', 'uptime_hours': 21.017450140833333, 'cycle': 93932, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
+          "success": true
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-14T05:48:17.641992",
+          "result": "{'benchmarks': {'timestamp': '2026-02-14T05:45:37.674073', 'uptime_hours': 21.331989280277774, 'cycle': 94147, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
+          "success": true
+        }
+      ],
+      "github_contributions": 0,
+      "journal_entries": 7,
+      "revenue_services": 0
+    }
+  },
+  "metrics": {
+    "tasks_completed": 695,
+    "tasks_failed": 5,
+    "evolutions": 1,
+    "goals_generated": 877,
+    "api_calls_local": 508,
+    "api_calls_cloud": 187,
+    "cost_today": 0.0,
+    "uptime_seconds": 77997.800386
+  }
+}
