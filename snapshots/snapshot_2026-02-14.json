@@ -5,9 +5,9 @@
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
     "energy": 100,
-    "cycles": 95368,
-    "uptime_seconds": 83021.145828,
-    "uptime_human": "23:03:41",
+    "cycles": 95566,
+    "uptime_seconds": 84017.841031,
+    "uptime_human": "23:20:17",
     "start_time": "2026-02-13T08:25:38.244404",
     "metrics": {
       "tasks_completed": 695,
@@ -17,7 +17,7 @@
       "api_calls_local": 508,
       "api_calls_cloud": 187,
       "cost_today": 0.0,
-      "uptime_seconds": 83039.180376
+      "uptime_seconds": 84042.976481
     },
     "subsystems": {
       "heartbeat": {
@@ -76,30 +76,6 @@
       }
     },
     "recent_activity": [
-      {
-        "timestamp": "2026-02-14T06:05:37.719757",
-        "cycle": 94374,
-        "category": "MISSION",
-        "message": "Executing: Morning prep: publish journal + briefing",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-14T06:05:37.719944",
-        "cycle": 94374,
-        "category": "JOURNAL",
-        "message": "Writing daily evolution journal entry",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-14T06:05:57.497703",
-        "cycle": 94378,
-        "category": "JOURNAL",
-        "message": "Published journal entry: 2026-02-14",
-        "data": {},
-        "energy": 100
-      },
       {
         "timestamp": "2026-02-14T06:16:26.628535",
         "cycle": 94501,
@@ -235,6 +211,30 @@
         "message": "Writing daily evolution journal entry",
         "data": {},
         "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T07:29:38.840824",
+        "cycle": 95372,
+        "category": "JOURNAL",
+        "message": "Published journal entry: 2026-02-14",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T07:45:56.085209",
+        "cycle": 95566,
+        "category": "MISSION",
+        "message": "Executing: Morning prep: publish journal + briefing",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-14T07:45:56.085350",
+        "cycle": 95566,
+        "category": "JOURNAL",
+        "message": "Writing daily evolution journal entry",
+        "data": {},
+        "energy": 100
       }
     ],
     "goal_queue_depth": 4,
@@ -245,14 +245,14 @@
         "avg_latency": 0.7276098012924195
       },
       "local_medium": {
-        "total_calls": 453,
+        "total_calls": 457,
         "errors": 0,
-        "avg_latency": 24.807380633354185
+        "avg_latency": 24.30911205291748
       },
       "local_heavy": {
-        "total_calls": 43,
+        "total_calls": 44,
         "errors": 0,
-        "avg_latency": 38.19213279457979
+        "avg_latency": 37.76551918008111
       },
       "cloud_smart": {
         "total_calls": 100,
@@ -268,26 +268,20 @@
       "chaos_mode": false
     },
     "resource_usage": {
-      "timestamp": "2026-02-14T07:29:19.390294",
-      "memory_mb": 735.789056,
-      "gpu_vram_mb": 1060.0,
-      "gpu_util": 0.0,
-      "disk_used_gb": 412.640616448,
+      "timestamp": "2026-02-14T07:45:56.085483",
+      "memory_mb": 735.793152,
+      "gpu_vram_mb": 20291.0,
+      "gpu_util": 90.0,
+      "disk_used_gb": 412.776329216,
       "api_cost_today": 0.0,
-      "memory_percent": 1.092646357898189,
-      "disk_free_gb": 520.180195328,
+      "memory_percent": 1.0926524404560167,
+      "disk_free_gb": 520.04448256,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
-      "missions_executed": 79,
+      "missions_executed": 80,
       "current_mission": null,
       "recent_missions": [
-        {
-          "mission": "deep_evolution",
-          "timestamp": "2026-02-14T04:32:05.097477",
-          "result": "{'benchmarks': {'timestamp': '2026-02-14T04:29:34.389375', 'uptime_hours': 20.064266240833334, 'cycle': 93284, 'skill_inventory': {'modules': 25687, 'functions': 98689, 'classes': 57296, 'total_lines': 8450627}, 'code_metrics': {'docstring_coverage': '33%', 'type_hint_coverage': '37%', 'total_functi",
-          "success": true
-        },
         {
           "mission": "deep_evolution",
           "timestamp": "2026-02-14T04:51:18.255982",
@@ -341,10 +335,16 @@
           "timestamp": "2026-02-14T07:12:52.016805",
           "result": "{'journal': {'date': '2026-02-14', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-14.md', 'pushed': False}}",
           "success": true
+        },
+        {
+          "mission": "morning_prep",
+          "timestamp": "2026-02-14T07:29:38.840983",
+          "result": "{'journal': {'date': '2026-02-14', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-14.md', 'pushed': False}}",
+          "success": true
         }
       ],
       "github_contributions": 0,
-      "journal_entries": 12,
+      "journal_entries": 13,
       "revenue_services": 0
     }
   },
@@ -356,6 +356,6 @@
     "api_calls_local": 508,
     "api_calls_cloud": 187,
     "cost_today": 0.0,
-    "uptime_seconds": 83019.107119
+    "uptime_seconds": 84012.868423
   }
 }
