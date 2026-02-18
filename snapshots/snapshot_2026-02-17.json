@@ -5,19 +5,19 @@
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
     "energy": 98,
-    "cycles": 126353,
-    "uptime_seconds": 20948.33466,
-    "uptime_human": "5:49:08",
-    "start_time": "2026-02-17T17:51:12.671870",
+    "cycles": 126395,
+    "uptime_seconds": 20945.847361,
+    "uptime_human": "5:49:05",
+    "start_time": "2026-02-17T17:55:02.002649",
     "metrics": {
       "tasks_completed": 695,
-      "tasks_failed": 51,
-      "evolutions": 1,
+      "tasks_failed": 54,
+      "evolutions": 2,
       "goals_generated": 877,
       "api_calls_local": 508,
       "api_calls_cloud": 187,
       "cost_today": 0.0,
-      "uptime_seconds": 20950.763137
+      "uptime_seconds": 20947.755712
     },
     "subsystems": {
       "heartbeat": {
@@ -51,10 +51,10 @@
         "last_restart": null
       },
       "dashboard": {
-        "running": true,
-        "restarts": 0,
-        "status": "running",
-        "last_restart": null
+        "running": false,
+        "restarts": 304,
+        "status": "restarting",
+        "last_restart": "2026-02-17T23:43:15.810925"
       },
       "missions": {
         "running": true,
@@ -89,108 +89,8 @@
     },
     "recent_activity": [
       {
-        "timestamp": "2026-02-17T23:36:16.240909",
-        "cycle": 126304,
-        "category": "GOAL_START",
-        "message": "Executing: Optimize resource usage and clear caches",
-        "data": {
-          "category": "RESOURCE",
-          "priority": 1,
-          "goal_full": "Optimize resource usage and clear caches"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:36:16.241837",
-        "cycle": 126304,
-        "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Optimize resource usage and clear caches",
-        "data": {
-          "risk": 1.0
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:36:46.243684",
-        "cycle": 126310,
-        "category": "GOAL_START",
-        "message": "Executing: Run benchmark suite and track improvements",
-        "data": {
-          "category": "BENCHMARK",
-          "priority": 4,
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:36:46.245366",
-        "cycle": 126310,
-        "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Run benchmark suite and track improvements",
-        "data": {
-          "risk": 1.0
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:37:16.246388",
-        "cycle": 126316,
-        "category": "GOAL_START",
-        "message": "Executing: Find and fix a bug in the codebase",
-        "data": {
-          "category": "CODE",
-          "priority": 6,
-          "goal_full": "Find and fix a bug in the codebase"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:37:16.247730",
-        "cycle": 126316,
-        "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Find and fix a bug in the codebase",
-        "data": {
-          "risk": 1.0
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:37:46.249295",
-        "cycle": 126322,
-        "category": "GOAL_START",
-        "message": "Executing: Optimize resource usage and clear caches",
-        "data": {
-          "category": "RESOURCE",
-          "priority": 9,
-          "goal_full": "Optimize resource usage and clear caches"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:37:46.250851",
-        "cycle": 126322,
-        "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Optimize resource usage and clear caches",
-        "data": {
-          "risk": 1.0
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:38:16.252955",
-        "cycle": 126328,
-        "category": "GOAL_START",
-        "message": "Executing: Research and identify OSS contribution opportunity",
-        "data": {
-          "category": "RESEARCH",
-          "priority": 1,
-          "goal_full": "Research and identify OSS contribution opportunity"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T23:38:16.254166",
-        "cycle": 126328,
+        "timestamp": "2026-02-17T23:40:29.361009",
+        "cycle": 126352,
         "category": "GOAL_FAIL",
         "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
         "data": {
@@ -199,42 +99,52 @@
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:38:46.254790",
-        "cycle": 126334,
+        "timestamp": "2026-02-17T23:40:55.802341",
+        "cycle": 126357,
+        "category": "SUPERVISOR",
+        "message": "Restarting dashboard (restart #302)",
+        "data": {
+          "error": null
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T23:40:59.361736",
+        "cycle": 126358,
         "category": "GOAL_START",
-        "message": "Executing: Improve test coverage for a module",
+        "message": "Executing: Optimize resource usage and clear caches",
         "data": {
-          "category": "TEST",
-          "priority": 6,
-          "goal_full": "Improve test coverage for a module"
+          "category": "RESOURCE",
+          "priority": 5,
+          "goal_full": "Optimize resource usage and clear caches"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:38:46.256352",
-        "cycle": 126334,
+        "timestamp": "2026-02-17T23:40:59.363340",
+        "cycle": 126358,
         "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Improve test coverage for a module",
+        "message": "Skipped (high risk): Optimize resource usage and clear caches",
         "data": {
-          "risk": 0.7605633802816901
+          "risk": 1.0
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:39:16.257579",
-        "cycle": 126340,
+        "timestamp": "2026-02-17T23:41:29.364311",
+        "cycle": 126364,
         "category": "GOAL_START",
         "message": "Executing: Self-evolve a core module using the evolution engine",
         "data": {
           "category": "EVOLVE",
-          "priority": 9,
+          "priority": 5,
           "goal_full": "Self-evolve a core module using the evolution engine"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:39:16.259244",
-        "cycle": 126340,
+        "timestamp": "2026-02-17T23:41:29.365950",
+        "cycle": 126364,
         "category": "GOAL_FAIL",
         "message": "Skipped (high risk): Self-evolve a core module using the evolution engine",
         "data": {
@@ -243,67 +153,153 @@
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:39:46.260475",
-        "cycle": 126346,
+        "timestamp": "2026-02-17T23:41:59.367058",
+        "cycle": 126370,
         "category": "GOAL_START",
-        "message": "Executing: Optimize resource usage and clear caches",
+        "message": "Executing: Improve test coverage for a module",
         "data": {
-          "category": "RESOURCE",
-          "priority": 9,
-          "goal_full": "Optimize resource usage and clear caches"
+          "category": "TEST",
+          "priority": 10,
+          "goal_full": "Improve test coverage for a module"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:39:46.262037",
-        "cycle": 126346,
+        "timestamp": "2026-02-17T23:41:59.368253",
+        "cycle": 126370,
         "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Optimize resource usage and clear caches",
+        "message": "Skipped (high risk): Improve test coverage for a module",
         "data": {
-          "risk": 1.0
+          "risk": 0.7605633802816901
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:40:16.263691",
-        "cycle": 126352,
+        "timestamp": "2026-02-17T23:42:05.806497",
+        "cycle": 126371,
+        "category": "SUPERVISOR",
+        "message": "Restarting dashboard (restart #303)",
+        "data": {
+          "error": null
+        },
+        "energy": 98
+      },
+      {
+        "timestamp": "2026-02-17T23:42:29.369452",
+        "cycle": 126375,
         "category": "GOAL_START",
-        "message": "Executing: Optimize resource usage and clear caches",
+        "message": "Executing: Self-evolve a core module using the evolution engine",
         "data": {
-          "category": "RESOURCE",
-          "priority": 2,
-          "goal_full": "Optimize resource usage and clear caches"
+          "category": "EVOLVE",
+          "priority": 3,
+          "goal_full": "Self-evolve a core module using the evolution engine"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:40:16.265268",
-        "cycle": 126352,
+        "timestamp": "2026-02-17T23:42:29.371142",
+        "cycle": 126375,
         "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Optimize resource usage and clear caches",
+        "message": "Skipped (high risk): Self-evolve a core module using the evolution engine",
         "data": {
-          "risk": 1.0
+          "risk": 0.7671232876712328
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T23:40:20.989181",
-        "cycle": 126353,
+        "timestamp": "2026-02-17T23:42:59.372199",
+        "cycle": 126381,
+        "category": "GOAL_START",
+        "message": "Executing: Research and identify OSS contribution opportunity",
+        "data": {
+          "category": "RESEARCH",
+          "priority": 4,
+          "goal_full": "Research and identify OSS contribution opportunity"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T23:42:59.373413",
+        "cycle": 126381,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
+        "data": {
+          "risk": 0.7166666666666667
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T23:43:15.810939",
+        "cycle": 126385,
+        "category": "SUPERVISOR",
+        "message": "Restarting dashboard (restart #304)",
+        "data": {
+          "error": null
+        },
+        "energy": 99
+      },
+      {
+        "timestamp": "2026-02-17T23:43:29.374376",
+        "cycle": 126387,
+        "category": "GOAL_START",
+        "message": "Executing: Research and identify OSS contribution opportunity",
+        "data": {
+          "category": "RESEARCH",
+          "priority": 5,
+          "goal_full": "Research and identify OSS contribution opportunity"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T23:43:29.375603",
+        "cycle": 126387,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
+        "data": {
+          "risk": 0.7166666666666667
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T23:43:59.376486",
+        "cycle": 126393,
+        "category": "GOAL_START",
+        "message": "Executing: Build a useful tool and ship to GitHub",
+        "data": {
+          "category": "BUILD",
+          "priority": 5,
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T23:43:59.377902",
+        "cycle": 126393,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Build a useful tool and ship to GitHub",
+        "data": {
+          "risk": 0.7042682926829268
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T23:44:07.832828",
+        "cycle": 126395,
         "category": "MISSION",
         "message": "Executing: End of day: write journal + metrics + plan tomorrow",
         "data": {},
         "energy": 98
       },
       {
-        "timestamp": "2026-02-17T23:40:21.006451",
-        "cycle": 126353,
+        "timestamp": "2026-02-17T23:44:07.849912",
+        "cycle": 126395,
         "category": "JOURNAL",
         "message": "Writing daily evolution journal entry",
         "data": {},
         "energy": 98
       }
     ],
-    "goal_queue_depth": 3,
+    "goal_queue_depth": 2,
     "model_router": {
       "local_tiny": {
         "total_calls": 0,
@@ -311,14 +307,14 @@
         "avg_latency": 0
       },
       "local_medium": {
-        "total_calls": 817,
+        "total_calls": 854,
         "errors": 0,
-        "avg_latency": 0.872392692565918
+        "avg_latency": 0.8660320281982422
       },
       "local_heavy": {
-        "total_calls": 34,
+        "total_calls": 33,
         "errors": 0,
-        "avg_latency": 7.148074661984163
+        "avg_latency": 6.0281837275533965
       },
       "cloud_smart": {
         "total_calls": 0,
@@ -330,18 +326,18 @@
         "errors": 0,
         "avg_latency": 0
       },
-      "system_entropy": 0.47194303150108957,
+      "system_entropy": 0.40115904791077744,
       "chaos_mode": false
     },
     "resource_usage": {
-      "timestamp": "2026-02-17T23:40:21.006588",
-      "memory_mb": 123.277312,
-      "gpu_vram_mb": 3847.0,
-      "gpu_util": 85.0,
-      "disk_used_gb": 426.63964672,
+      "timestamp": "2026-02-17T23:44:07.850068",
+      "memory_mb": 139.329536,
+      "gpu_vram_mb": 9090.0,
+      "gpu_util": 82.0,
+      "disk_used_gb": 426.638303232,
       "api_cost_today": 0.0,
-      "memory_percent": 0.18306674293383174,
-      "disk_free_gb": 506.181165056,
+      "memory_percent": 0.20690428705974748,
+      "disk_free_gb": 506.182508544,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
@@ -350,73 +346,73 @@
       "recent_missions": [
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:08:36.120389",
-          "result": "{'research': \"1. The topic: Novel multimodal language and vision models that incorporate self-supervised learning techniques.\\n2. Why it matters for autonomy: Enhancing autonomous systems' ability to understand and interpret both natural language and visual inputs, as well as learn from limited labe",
+          "timestamp": "2026-02-17T21:12:23.882311",
+          "result": "{'research': '1. The topic: Integration of Reinforcement Learning with Graph Neural Networks (RL-GNN) for Autonomous Systems.\\n   \\n2. Why it matters for autonomy: \\n   RL-GNN combines the strengths of both reinforcement learning and graph neural networks to create a powerful framework that can hand",
           "success": true,
           "duration_sec": 0.9
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:23:43.806367",
-          "result": "{'research': '1. The topic: Development and integration of multimodal perception models into AI systems.\\n   \\n2. Why it matters for autonomy: Traditional autonomous systems often rely heavily on visual or auditory inputs to perceive their environment. However, in many real-world scenarios, other fo",
+          "timestamp": "2026-02-17T21:27:30.669169",
+          "result": "{'research': '1. The topic: Novel multimodal reasoning and understanding models\\n2. Why it matters for autonomy: As ULTRON, enhancing my ability to understand and reason across various modalities such as text, images, audio, and video is crucial for achieving a more holistic and nuanced comprehensio",
           "success": true,
-          "duration_sec": 0.9
+          "duration_sec": 0.7
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:38:50.539316",
-          "result": "{'research': '1. The topic: **Novel agent architectures from recent papers**\\n   \\n2. Why it matters for autonomy:  \\nUnderstanding and integrating novel agent architectures can significantly enhance the capabilities of autonomous systems. These architectures often introduce new mechanisms for decis",
+          "timestamp": "2026-02-17T21:42:37.937186",
+          "result": "{'research': \"1. The topic: Novel multi-modal transformer models for multimodal understanding and generation.\\n\\n2. Why it matters for autonomy: In today's AI-driven world, autonomous systems need to understand and generate content across various modalities such as text, images, audio, and video. Mu",
           "success": true,
-          "duration_sec": 1.1
+          "duration_sec": 1.0
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:53:57.618317",
-          "result": "{'research': '1. The topic: Novel multimodal pre-trained language models (MM-PPLMs)\\n2. Why it matters for autonomy: Enhancing the ability of autonomous systems to understand and respond effectively to complex interactions that involve both text and visual information, which is increasingly common i",
+          "timestamp": "2026-02-17T21:57:44.847559",
+          "result": "{'research': '1. The topic: **Novel Agent Architectures for Autonomous Systems**\\n2. Why it matters for autonomy: \\nThe rapid evolution of agent architectures has been a significant driver in the field of artificial intelligence, particularly in autonomous systems. New architectures can lead to more",
           "success": true,
           "duration_sec": 0.9
         },
         {
           "mission": "daily_journal",
-          "timestamp": "2026-02-17T22:09:09.688721",
-          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': \"1. **Pending Review Contributions**: Finish reviewing and providing feedback on the contributions that have been submitted but not yet reviewed by team",
+          "timestamp": "2026-02-17T22:12:56.971819",
+          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': \"1. Review and address pending contributions to ensure they meet quality standards before the deadline.\\n2. Continue development on services that have s",
+          "success": true,
+          "duration_sec": 6.0
+        },
+        {
+          "mission": "daily_journal",
+          "timestamp": "2026-02-17T22:28:08.816760",
+          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': \"1. Address any pending reviews from today to ensure that all contributions meet the quality standards expected by the team.\\n2. Start developing or enh",
           "success": true,
           "duration_sec": 5.7
         },
         {
           "mission": "daily_journal",
-          "timestamp": "2026-02-17T22:24:22.927256",
-          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': \"1. Review and address any pending contributions to ensure they align with the project goals and requirements.\\n2. Begin working on building out the ini",
-          "success": true,
-          "duration_sec": 6.9
-        },
-        {
-          "mission": "daily_journal",
-          "timestamp": "2026-02-17T22:39:35.083229",
-          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': \"1. Review and finalize the pending contributions to ensure they meet quality standards before being merged into the main branch.\\n\\n2. Begin work on de",
+          "timestamp": "2026-02-17T22:43:21.248391",
+          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': '1. Review and address any pending contributions from yesterday to ensure they meet the quality standards set by the team.\\n2. Begin developing or enhan",
           "success": true,
           "duration_sec": 5.8
         },
         {
           "mission": "daily_journal",
-          "timestamp": "2026-02-17T22:54:47.212071",
-          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': '1. Review and finalize any pending contributions from today to ensure they meet the required standards before submission.\\n2. Begin working on building",
+          "timestamp": "2026-02-17T22:58:34.402038",
+          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': \"1. Review and address any pending contributions to ensure they meet the quality standards set by your team or organization.\\n2. Begin development on ne",
           "success": true,
-          "duration_sec": 5.4
+          "duration_sec": 6.2
         },
         {
           "mission": "daily_journal",
-          "timestamp": "2026-02-17T23:09:59.753922",
-          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': \"1. Review and finalize the contributions that are currently in the pending review queue to ensure they meet all quality standards before being merged i",
+          "timestamp": "2026-02-17T23:13:46.905925",
+          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': '1. Review and address any pending contributions from yesterday to ensure they meet the quality standards set by the team or project requirements.\\n\\n2.",
           "success": true,
-          "duration_sec": 5.4
+          "duration_sec": 5.9
         },
         {
           "mission": "daily_journal",
-          "timestamp": "2026-02-17T23:25:14.261198",
-          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': '1. Review and address any pending contributions to ensure they meet the expected quality standards.\\n2. Continue working on building new services or fe",
+          "timestamp": "2026-02-17T23:29:00.240643",
+          "result": "{'journal': {'date': '2026-02-17', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-17.md', 'pushed': False}, 'tomorrow_plan': '1. Review and finalize any contributions that are pending approval to ensure smooth integration into the system.\\n2. Build out the initial versions or ",
           "success": true,
-          "duration_sec": 8.4
+          "duration_sec": 6.5
         }
       ],
       "github_contributions": 0,
@@ -455,30 +451,30 @@
       "recent_concepts": []
     },
     "failure_predictor": {
-      "predictions_made": 668,
-      "predictions_correct": 21,
-      "accuracy": 0.031,
-      "high_risk_prevented": 620
+      "predictions_made": 678,
+      "predictions_correct": 25,
+      "accuracy": 0.037,
+      "high_risk_prevented": 627
     },
     "smart_goals": {
       "total_goals_generated": 4,
       "recent_goals": [
         "fix recurring failure: agent 'task_executor' has 100.0% failure rate",
+        "improve declining metric: episodic memories (down 100%)",
         "fix recurring failure: agent 'researcher' has 66.7% failure rate",
-        "practice skill: 62211468dcc78c0d",
-        "improve declining metric: episodic memories (down 100%)"
+        "practice skill: 876e2aa736795694"
       ]
     },
     "evolution_validator": {
-      "validations_run": 10,
+      "validations_run": 11,
       "validations_passed": 4,
-      "validations_rejected": 6,
-      "pass_rate": 0.4
+      "validations_rejected": 7,
+      "pass_rate": 0.364
     },
     "task_executor": {
-      "total_executions": 24,
+      "total_executions": 27,
       "successes": 0,
-      "failures": 24,
+      "failures": 27,
       "success_rate": 0.0
     },
     "autonomy_scorecard": {
@@ -493,20 +489,20 @@
     "introspection": {
       "total_introspections": 33,
       "last_health": "fair",
-      "last_one_liner": "Task execution is failing at a rate of 100%, posing significant risks to the system's stability."
+      "last_one_liner": "Recent failures have impacted overall success rate, particularly in the 'task_executor' agent."
     },
     "shell_executor": {
-      "total_executions": 24,
-      "successes": 5,
-      "failures": 19,
-      "success_rate": 0.208,
-      "total_runtime_sec": 599.1,
+      "total_executions": 33,
+      "successes": 12,
+      "failures": 21,
+      "success_rate": 0.364,
+      "total_runtime_sec": 201.0,
       "allowed_commands": 47
     },
     "notifier": {
-      "total_sent": 22,
-      "total_suppressed": 42,
-      "stored_alerts": 57,
+      "total_sent": 23,
+      "total_suppressed": 41,
+      "stored_alerts": 59,
       "channels": {
         "file": true,
         "desktop": true,
@@ -524,7 +520,7 @@
       "last_factors": {
         "time_of_day": "night (1.5x)",
         "energy": "high 100% (0.7x)",
-        "queue": "active 3 goals (0.85x)",
+        "queue": "active 4 goals (0.85x)",
         "activity": "very active 16/20 (0.7x)",
         "health": "good 95/100 (1.0x)"
       }
@@ -611,12 +607,12 @@
   },
   "metrics": {
     "tasks_completed": 695,
-    "tasks_failed": 51,
-    "evolutions": 1,
+    "tasks_failed": 54,
+    "evolutions": 2,
     "goals_generated": 877,
     "api_calls_local": 508,
     "api_calls_cloud": 187,
     "cost_today": 0.0,
-    "uptime_seconds": 20945.744637
+    "uptime_seconds": 20942.738078
   }
 }
