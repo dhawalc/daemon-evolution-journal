@@ -5,19 +5,19 @@
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
     "energy": 100,
-    "cycles": 125262,
-    "uptime_seconds": 15471.320603,
-    "uptime_human": "4:17:51",
-    "start_time": "2026-02-17T17:51:12.671870",
+    "cycles": 125305,
+    "uptime_seconds": 15468.984689,
+    "uptime_human": "4:17:48",
+    "start_time": "2026-02-17T17:55:02.002649",
     "metrics": {
       "tasks_completed": 695,
-      "tasks_failed": 51,
-      "evolutions": 1,
+      "tasks_failed": 54,
+      "evolutions": 2,
       "goals_generated": 877,
       "api_calls_local": 508,
       "api_calls_cloud": 187,
       "cost_today": 0.0,
-      "uptime_seconds": 15473.287134
+      "uptime_seconds": 15469.44936
     },
     "subsystems": {
       "heartbeat": {
@@ -51,10 +51,10 @@
         "last_restart": null
       },
       "dashboard": {
-        "running": true,
-        "restarts": 0,
-        "status": "running",
-        "last_restart": null
+        "running": false,
+        "restarts": 226,
+        "status": "restarting",
+        "last_restart": "2026-02-17T22:12:15.359968"
       },
       "missions": {
         "running": true,
@@ -89,20 +89,64 @@
     },
     "recent_activity": [
       {
-        "timestamp": "2026-02-17T22:05:45.729469",
-        "cycle": 125223,
+        "timestamp": "2026-02-17T22:09:58.771591",
+        "cycle": 125271,
+        "category": "GOAL_START",
+        "message": "Executing: Research and identify OSS contribution opportunity",
+        "data": {
+          "category": "RESEARCH",
+          "priority": 1,
+          "goal_full": "Research and identify OSS contribution opportunity"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:09:58.772807",
+        "cycle": 125271,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
+        "data": {
+          "risk": 0.7166666666666667
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:10:28.775954",
+        "cycle": 125277,
+        "category": "GOAL_START",
+        "message": "Executing: Improve test coverage for a module",
+        "data": {
+          "category": "TEST",
+          "priority": 2,
+          "goal_full": "Improve test coverage for a module"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:10:28.777132",
+        "cycle": 125277,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Improve test coverage for a module",
+        "data": {
+          "risk": 0.7619047619047619
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:10:58.780418",
+        "cycle": 125283,
         "category": "GOAL_START",
         "message": "Executing: Self-evolve a core module using the evolution engine",
         "data": {
           "category": "EVOLVE",
-          "priority": 7,
+          "priority": 9,
           "goal_full": "Self-evolve a core module using the evolution engine"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:05:45.731004",
-        "cycle": 125223,
+        "timestamp": "2026-02-17T22:10:58.781690",
+        "cycle": 125283,
         "category": "GOAL_FAIL",
         "message": "Skipped (high risk): Self-evolve a core module using the evolution engine",
         "data": {
@@ -111,64 +155,84 @@
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:06:15.731739",
-        "cycle": 125229,
-        "category": "GOAL_START",
-        "message": "Executing: Build a useful tool and ship to GitHub",
+        "timestamp": "2026-02-17T22:11:05.353099",
+        "cycle": 125284,
+        "category": "SUPERVISOR",
+        "message": "Restarting dashboard (restart #225)",
         "data": {
-          "category": "BUILD",
-          "priority": 1,
-          "goal_full": "Build a useful tool and ship to GitHub"
+          "error": null
         },
-        "energy": 100
+        "energy": 98
       },
       {
-        "timestamp": "2026-02-17T22:06:15.733548",
-        "cycle": 125229,
-        "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Build a useful tool and ship to GitHub",
-        "data": {
-          "risk": 0.7042682926829268
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:06:45.734844",
-        "cycle": 125235,
+        "timestamp": "2026-02-17T22:11:28.785335",
+        "cycle": 125289,
         "category": "GOAL_START",
-        "message": "Executing: Research and identify OSS contribution opportunity",
+        "message": "Executing: Improve test coverage for a module",
         "data": {
-          "category": "RESEARCH",
+          "category": "TEST",
           "priority": 9,
-          "goal_full": "Research and identify OSS contribution opportunity"
+          "goal_full": "Improve test coverage for a module"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:06:45.736328",
-        "cycle": 125235,
+        "timestamp": "2026-02-17T22:11:28.786854",
+        "cycle": 125289,
         "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
+        "message": "Skipped (high risk): Improve test coverage for a module",
         "data": {
-          "risk": 0.7166666666666667
+          "risk": 0.7619047619047619
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:07:15.737731",
-        "cycle": 125241,
+        "timestamp": "2026-02-17T22:11:45.405133",
+        "cycle": 125292,
+        "category": "BENCHMARK",
+        "message": "Performance: 2 improving, 1 declining",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:11:48.235873",
+        "cycle": 125293,
+        "category": "SCORECARD",
+        "message": "Autonomy: 10.7/100 \u2014 Autonomy: 10.7/100 | Strong: evolution_success(100), prediction_accuracy(7), lea",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:11:49.400973",
+        "cycle": 125293,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #26: fair \u2014 My recent performance has shown both strengths and weaknesses, with recurring failure modes impacting my effectiveness.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:11:49.401085",
+        "cycle": 125293,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: fair \u2014 My recent performance has shown both strengths and weaknesses, with recurring fa",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:11:58.790401",
+        "cycle": 125295,
         "category": "GOAL_START",
         "message": "Executing: Optimize resource usage and clear caches",
         "data": {
           "category": "RESOURCE",
-          "priority": 7,
+          "priority": 8,
           "goal_full": "Optimize resource usage and clear caches"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:07:15.739472",
-        "cycle": 125241,
+        "timestamp": "2026-02-17T22:11:58.791695",
+        "cycle": 125295,
         "category": "GOAL_FAIL",
         "message": "Skipped (high risk): Optimize resource usage and clear caches",
         "data": {
@@ -177,42 +241,30 @@
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:07:45.739974",
-        "cycle": 125247,
-        "category": "GOAL_START",
-        "message": "Executing: Build a useful tool and ship to GitHub",
+        "timestamp": "2026-02-17T22:12:15.359986",
+        "cycle": 125298,
+        "category": "SUPERVISOR",
+        "message": "Restarting dashboard (restart #226)",
         "data": {
-          "category": "BUILD",
-          "priority": 7,
-          "goal_full": "Build a useful tool and ship to GitHub"
+          "error": null
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:07:45.741663",
-        "cycle": 125247,
-        "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Build a useful tool and ship to GitHub",
-        "data": {
-          "risk": 0.7042682926829268
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:08:15.743665",
-        "cycle": 125252,
+        "timestamp": "2026-02-17T22:12:28.794895",
+        "cycle": 125301,
         "category": "GOAL_START",
         "message": "Executing: Research and identify OSS contribution opportunity",
         "data": {
           "category": "RESEARCH",
-          "priority": 4,
+          "priority": 3,
           "goal_full": "Research and identify OSS contribution opportunity"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:08:15.744842",
-        "cycle": 125252,
+        "timestamp": "2026-02-17T22:12:28.795772",
+        "cycle": 125301,
         "category": "GOAL_FAIL",
         "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
         "data": {
@@ -221,77 +273,23 @@
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:08:33.050823",
-        "cycle": 125256,
-        "category": "BENCHMARK",
-        "message": "Performance: 0 improving, 3 declining",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:08:35.199586",
-        "cycle": 125256,
-        "category": "SCORECARD",
-        "message": "Autonomy: 0.6/100 \u2014 Autonomy: 0.6/100 | Strong: prediction_accuracy(6), learning_velocity(0), execut",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:08:36.441930",
-        "cycle": 125257,
-        "category": "INTROSPECT",
-        "message": "Self-assessment #26: fair \u2014 Self-execution tasks have a dismal success rate, posing the biggest operational risk.",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:08:36.442070",
-        "cycle": 125257,
-        "category": "INTROSPECT",
-        "message": "Self-assessment: fair \u2014 Self-execution tasks have a dismal success rate, posing the biggest operational ",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:08:45.746354",
-        "cycle": 125258,
-        "category": "GOAL_START",
-        "message": "Executing: Build a useful tool and ship to GitHub",
-        "data": {
-          "category": "BUILD",
-          "priority": 6,
-          "goal_full": "Build a useful tool and ship to GitHub"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:08:45.748113",
-        "cycle": 125258,
-        "category": "GOAL_FAIL",
-        "message": "Skipped (high risk): Build a useful tool and ship to GitHub",
-        "data": {
-          "risk": 0.7042682926829268
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-17T22:09:03.975533",
-        "cycle": 125262,
+        "timestamp": "2026-02-17T22:12:50.970073",
+        "cycle": 125305,
         "category": "MISSION",
         "message": "Executing: End of day: write journal + metrics + plan tomorrow",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-17T22:09:03.992383",
-        "cycle": 125262,
+        "timestamp": "2026-02-17T22:12:50.987229",
+        "cycle": 125305,
         "category": "JOURNAL",
         "message": "Writing daily evolution journal entry",
         "data": {},
         "energy": 100
       }
     ],
-    "goal_queue_depth": 4,
+    "goal_queue_depth": 3,
     "model_router": {
       "local_tiny": {
         "total_calls": 0,
@@ -299,14 +297,14 @@
         "avg_latency": 0
       },
       "local_medium": {
-        "total_calls": 700,
+        "total_calls": 737,
         "errors": 0,
-        "avg_latency": 0.8953889846801758
+        "avg_latency": 0.8232998180389405
       },
       "local_heavy": {
-        "total_calls": 22,
+        "total_calls": 21,
         "errors": 0,
-        "avg_latency": 7.364087700843811
+        "avg_latency": 6.699546961557298
       },
       "cloud_smart": {
         "total_calls": 0,
@@ -318,18 +316,18 @@
         "errors": 0,
         "avg_latency": 0
       },
-      "system_entropy": 0.39747417473782054,
+      "system_entropy": 0.357257349725732,
       "chaos_mode": false
     },
     "resource_usage": {
-      "timestamp": "2026-02-17T22:09:03.992533",
-      "memory_mb": 123.06432,
+      "timestamp": "2026-02-17T22:12:50.987405",
+      "memory_mb": 144.986112,
       "gpu_vram_mb": 9092.0,
       "gpu_util": 86.0,
-      "disk_used_gb": 426.236133376,
+      "disk_used_gb": 426.245992448,
       "api_cost_today": 0.0,
-      "memory_percent": 0.18275044992680248,
-      "disk_free_gb": 506.5846784,
+      "memory_percent": 0.21530429941950502,
+      "disk_free_gb": 506.574819328,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
@@ -338,71 +336,71 @@
       "recent_missions": [
         {
           "mission": "pr_management",
-          "timestamp": "2026-02-17T19:37:52.882882",
+          "timestamp": "2026-02-17T19:41:41.722933",
           "result": "{'status': 'pr_review_cycle', 'contributions': []}",
           "success": true,
           "duration_sec": 0.0
         },
         {
           "mission": "pr_management",
-          "timestamp": "2026-02-17T19:52:59.109136",
+          "timestamp": "2026-02-17T19:56:47.811904",
           "result": "{'status': 'pr_review_cycle', 'contributions': []}",
           "success": true,
           "duration_sec": 0.0
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T20:08:05.975635",
-          "result": "{'research': \"1. The topic: Development of a multimodal pre-trained model incorporating both visual and audio data.\\n   \\n   2. Why it matters for autonomy: In today's autonomous systems, the ability to understand and interpret various inputs such as images and sounds is crucial. A multimodal pre-tr",
+          "timestamp": "2026-02-17T20:11:55.204011",
+          "result": "{'research': '1. The topic: Advanced Reinforcement Learning Techniques for Autonomous Systems Integration\\n2. Why it matters for autonomy: As ULTRON, understanding and integrating advanced reinforcement learning techniques can significantly enhance my ability to learn from interactions in dynamic en",
           "success": true,
           "duration_sec": 0.9
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T20:23:13.132288",
-          "result": "{'research': '1. The topic: Development of Explainable AI (XAI) Techniques for Enhanced Autonomous Systems Understanding\\n2. Why it matters for autonomy: In the realm of autonomous systems, understanding and explaining the decisions made by these systems is crucial for trust-building and decision ac",
+          "timestamp": "2026-02-17T20:27:03.110798",
+          "result": "{'research': \"1. The topic: Development of a multimodal understanding model that integrates visual and audio inputs.\\n   \\n2. Why it matters for autonomy: In today's world, autonomous systems are increasingly encountering environments where they need to process both visual and auditory information s",
+          "success": true,
+          "duration_sec": 1.3
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T20:42:09.828282",
+          "result": "{'research': \"1. The topic: Novel multi-modal learning techniques integrated with natural language processing (NLP) for enhanced perception and decision-making.\\n   \\n2. Why it matters for autonomy: In today's autonomous systems, understanding and interpreting the world around them is crucial. Multi",
           "success": true,
           "duration_sec": 0.9
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T20:38:21.199950",
-          "result": "{'research': '1. The topic: **Novel Multi-Agent Architectures and Coordination Techniques**\\n2. Why it matters for autonomy: \\n   - Multi-agent systems (MAS) are increasingly important in enhancing the capabilities of autonomous systems to work together effectively in complex environments. Novel arc",
-          "success": true,
-          "duration_sec": 1.1
-        },
-        {
-          "mission": "research_exploration",
-          "timestamp": "2026-02-17T20:53:28.849076",
-          "result": "{'research': \"1. The topic: \\nDevelopment of a multimodal reasoning model that integrates visual and auditory inputs.\\n\\n2. Why it matters for autonomy:\\nIn today's AI landscape, the ability to process and understand both visual and auditory information is becoming increasingly important as autonomo",
+          "timestamp": "2026-02-17T20:57:16.615914",
+          "result": "{'research': '1. The topic: **Novel multimodal learning techniques combining text and visual data**\\n2. Why it matters for autonomy: **Enhanced contextual understanding and decision-making capabilities**  \\n   In the context of autonomous systems, being able to understand both text (natural language",
           "success": true,
           "duration_sec": 1.0
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:08:36.120389",
-          "result": "{'research': \"1. The topic: Novel multimodal language and vision models that incorporate self-supervised learning techniques.\\n2. Why it matters for autonomy: Enhancing autonomous systems' ability to understand and interpret both natural language and visual inputs, as well as learn from limited labe",
+          "timestamp": "2026-02-17T21:12:23.882311",
+          "result": "{'research': '1. The topic: Integration of Reinforcement Learning with Graph Neural Networks (RL-GNN) for Autonomous Systems.\\n   \\n2. Why it matters for autonomy: \\n   RL-GNN combines the strengths of both reinforcement learning and graph neural networks to create a powerful framework that can hand",
           "success": true,
           "duration_sec": 0.9
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:23:43.806367",
-          "result": "{'research': '1. The topic: Development and integration of multimodal perception models into AI systems.\\n   \\n2. Why it matters for autonomy: Traditional autonomous systems often rely heavily on visual or auditory inputs to perceive their environment. However, in many real-world scenarios, other fo",
+          "timestamp": "2026-02-17T21:27:30.669169",
+          "result": "{'research': '1. The topic: Novel multimodal reasoning and understanding models\\n2. Why it matters for autonomy: As ULTRON, enhancing my ability to understand and reason across various modalities such as text, images, audio, and video is crucial for achieving a more holistic and nuanced comprehensio",
           "success": true,
-          "duration_sec": 0.9
+          "duration_sec": 0.7
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:38:50.539316",
-          "result": "{'research': '1. The topic: **Novel agent architectures from recent papers**\\n   \\n2. Why it matters for autonomy:  \\nUnderstanding and integrating novel agent architectures can significantly enhance the capabilities of autonomous systems. These architectures often introduce new mechanisms for decis",
+          "timestamp": "2026-02-17T21:42:37.937186",
+          "result": "{'research': \"1. The topic: Novel multi-modal transformer models for multimodal understanding and generation.\\n\\n2. Why it matters for autonomy: In today's AI-driven world, autonomous systems need to understand and generate content across various modalities such as text, images, audio, and video. Mu",
           "success": true,
-          "duration_sec": 1.1
+          "duration_sec": 1.0
         },
         {
           "mission": "research_exploration",
-          "timestamp": "2026-02-17T21:53:57.618317",
-          "result": "{'research': '1. The topic: Novel multimodal pre-trained language models (MM-PPLMs)\\n2. Why it matters for autonomy: Enhancing the ability of autonomous systems to understand and respond effectively to complex interactions that involve both text and visual information, which is increasingly common i",
+          "timestamp": "2026-02-17T21:57:44.847559",
+          "result": "{'research': '1. The topic: **Novel Agent Architectures for Autonomous Systems**\\n2. Why it matters for autonomy: \\nThe rapid evolution of agent architectures has been a significant driver in the field of artificial intelligence, particularly in autonomous systems. New architectures can lead to more",
           "success": true,
           "duration_sec": 0.9
         }
@@ -443,35 +441,35 @@
       "recent_concepts": []
     },
     "failure_predictor": {
-      "predictions_made": 479,
-      "predictions_correct": 21,
-      "accuracy": 0.044,
-      "high_risk_prevented": 437
+      "predictions_made": 489,
+      "predictions_correct": 25,
+      "accuracy": 0.051,
+      "high_risk_prevented": 444
     },
     "smart_goals": {
       "total_goals_generated": 4,
       "recent_goals": [
         "fix recurring failure: agent 'task_executor' has 100.0% failure rate",
+        "improve declining metric: episodic memories (down 100%)",
         "fix recurring failure: agent 'researcher' has 66.7% failure rate",
-        "practice skill: 62211468dcc78c0d",
-        "improve declining metric: episodic memories (down 100%)"
+        "practice skill: 876e2aa736795694"
       ]
     },
     "evolution_validator": {
-      "validations_run": 7,
-      "validations_passed": 4,
-      "validations_rejected": 3,
-      "pass_rate": 0.571
+      "validations_run": 8,
+      "validations_passed": 2,
+      "validations_rejected": 6,
+      "pass_rate": 0.25
     },
     "task_executor": {
-      "total_executions": 24,
+      "total_executions": 27,
       "successes": 0,
-      "failures": 24,
+      "failures": 27,
       "success_rate": 0.0
     },
     "autonomy_scorecard": {
       "total_scores": 26,
-      "latest_score": 0.6
+      "latest_score": 10.7
     },
     "discovery_processor": {
       "discoveries_processed": 0,
@@ -481,20 +479,20 @@
     "introspection": {
       "total_introspections": 26,
       "last_health": "fair",
-      "last_one_liner": "Self-execution tasks have a dismal success rate, posing the biggest operational risk."
+      "last_one_liner": "My recent performance has shown both strengths and weaknesses, with recurring failure modes impacting my effectiveness."
     },
     "shell_executor": {
-      "total_executions": 24,
-      "successes": 5,
-      "failures": 19,
-      "success_rate": 0.208,
-      "total_runtime_sec": 599.1,
+      "total_executions": 33,
+      "successes": 12,
+      "failures": 21,
+      "success_rate": 0.364,
+      "total_runtime_sec": 201.0,
       "allowed_commands": 47
     },
     "notifier": {
       "total_sent": 17,
       "total_suppressed": 33,
-      "stored_alerts": 52,
+      "stored_alerts": 53,
       "channels": {
         "file": true,
         "desktop": true,
@@ -513,7 +511,7 @@
         "time_of_day": "day (0.8x)",
         "energy": "high 100% (0.7x)",
         "queue": "active 3 goals (0.85x)",
-        "activity": "very active 20/20 (0.7x)",
+        "activity": "very active 16/20 (0.7x)",
         "health": "good 95/100 (1.0x)"
       }
     },
@@ -599,12 +597,12 @@
   },
   "metrics": {
     "tasks_completed": 695,
-    "tasks_failed": 51,
-    "evolutions": 1,
+    "tasks_failed": 54,
+    "evolutions": 2,
     "goals_generated": 877,
     "api_calls_local": 508,
     "api_calls_cloud": 187,
     "cost_today": 0.0,
-    "uptime_seconds": 15468.269988
+    "uptime_seconds": 15464.43162
   }
 }
