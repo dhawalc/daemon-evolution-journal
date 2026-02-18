@@ -4,20 +4,20 @@
     "version": "2.0.0",
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
-    "energy": 99,
-    "cycles": 131642,
-    "uptime_seconds": 21680.441054,
-    "uptime_human": "6:01:20",
+    "energy": 100,
+    "cycles": 131823,
+    "uptime_seconds": 22590.900737,
+    "uptime_human": "6:16:30",
     "start_time": "2026-02-18T01:36:17.103728",
     "metrics": {
       "tasks_completed": 695,
-      "tasks_failed": 205,
+      "tasks_failed": 206,
       "evolutions": 2,
       "goals_generated": 877,
       "api_calls_local": 508,
       "api_calls_cloud": 187,
       "cost_today": 0.0,
-      "uptime_seconds": 21682.049358
+      "uptime_seconds": 22592.59848
     },
     "subsystems": {
       "heartbeat": {
@@ -107,209 +107,185 @@
     },
     "recent_activity": [
       {
-        "timestamp": "2026-02-18T07:30:45.360946",
-        "cycle": 131560,
-        "category": "INTROSPECT",
-        "message": "Self-assessment #68: fair \u2014 Despite significant progress, recurring failure modes in key tasks are a persistent issue.",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:30:45.361063",
-        "cycle": 131560,
-        "category": "INTROSPECT",
-        "message": "Self-assessment: fair \u2014 Despite significant progress, recurring failure modes in key tasks are a persist",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:30:47.465962",
-        "cycle": 131560,
-        "category": "GOAL_START",
-        "message": "Executing: Run benchmark suite and track improvements",
-        "data": {
-          "category": "BENCHMARK",
-          "priority": 10,
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:30:58.380006",
-        "cycle": 131563,
-        "category": "GOAL_FAIL",
-        "message": "Failed: Run benchmark suite and track improvements",
-        "data": {
-          "error": "some_steps_failed",
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:32:00.365848",
-        "cycle": 131575,
-        "category": "GOAL_START",
-        "message": "Executing: Optimize resource usage and clear caches",
-        "data": {
-          "category": "RESOURCE",
-          "priority": 10,
-          "goal_full": "Optimize resource usage and clear caches"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:32:11.678604",
-        "cycle": 131577,
-        "category": "GOAL_FAIL",
-        "message": "Failed: Optimize resource usage and clear caches",
-        "data": {
-          "error": "some_steps_failed",
-          "goal_full": "Optimize resource usage and clear caches"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:33:13.831467",
-        "cycle": 131590,
-        "category": "GOAL_START",
-        "message": "Executing: Run benchmark suite and track improvements",
-        "data": {
-          "category": "BENCHMARK",
-          "priority": 1,
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:33:23.837336",
-        "cycle": 131592,
-        "category": "GOAL_FAIL",
-        "message": "Failed: Run benchmark suite and track improvements",
-        "data": {
-          "error": "some_steps_failed",
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:34:25.543342",
-        "cycle": 131604,
-        "category": "GOAL_START",
-        "message": "Executing: Optimize resource usage and clear caches",
-        "data": {
-          "category": "RESOURCE",
-          "priority": 7,
-          "goal_full": "Optimize resource usage and clear caches"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:34:35.083596",
-        "cycle": 131606,
-        "category": "GOAL_FAIL",
-        "message": "Failed: Optimize resource usage and clear caches",
-        "data": {
-          "error": "some_steps_failed",
-          "goal_full": "Optimize resource usage and clear caches"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:35:36.921204",
-        "cycle": 131618,
-        "category": "GOAL_START",
-        "message": "Executing: Run benchmark suite and track improvements",
-        "data": {
-          "category": "BENCHMARK",
-          "priority": 4,
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:35:50.955447",
-        "cycle": 131621,
-        "category": "GOAL_FAIL",
-        "message": "Failed: Run benchmark suite and track improvements",
-        "data": {
-          "error": "some_steps_failed",
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T07:35:51.096051",
-        "cycle": 131621,
-        "category": "BENCHMARK",
-        "message": "Performance: 1 improving, 2 declining",
-        "data": {},
-        "energy": 97
-      },
-      {
-        "timestamp": "2026-02-18T07:35:54.370881",
-        "cycle": 131622,
+        "timestamp": "2026-02-18T07:41:01.452370",
+        "cycle": 131683,
         "category": "SCORECARD",
         "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
         "data": {},
-        "energy": 97
+        "energy": 100
       },
       {
-        "timestamp": "2026-02-18T07:35:55.501324",
-        "cycle": 131622,
+        "timestamp": "2026-02-18T07:41:02.784223",
+        "cycle": 131683,
         "category": "INTROSPECT",
-        "message": "Self-assessment #69: fair \u2014 Current performance is inconsistent with high failure rates, particularly from task_executor and evolution_validator.",
+        "message": "Self-assessment #70: fair \u2014 Despite some successes, recurring failures in the task executor and failure predictor suggest a need for immediate attention.",
         "data": {},
-        "energy": 97
+        "energy": 100
       },
       {
-        "timestamp": "2026-02-18T07:35:55.501454",
-        "cycle": 131622,
+        "timestamp": "2026-02-18T07:41:02.784342",
+        "cycle": 131683,
         "category": "INTROSPECT",
-        "message": "Self-assessment: fair \u2014 Current performance is inconsistent with high failure rates, particularly from t",
+        "message": "Self-assessment: fair \u2014 Despite some successes, recurring failures in the task executor and failure pred",
         "data": {},
-        "energy": 97
+        "energy": 100
       },
       {
-        "timestamp": "2026-02-18T07:36:54.218665",
-        "cycle": 131634,
-        "category": "GOAL_START",
-        "message": "Executing: Find and fix a bug in the codebase",
+        "timestamp": "2026-02-18T07:41:04.954549",
+        "cycle": 131684,
+        "category": "MOATS",
+        "message": "Maintenance: 1 patterns",
         "data": {
-          "category": "CODE",
-          "priority": 7,
-          "goal_full": "Find and fix a bug in the codebase"
+          "traces_graded": 0,
+          "error_patterns_found": 1,
+          "retrieval_gaps": 1,
+          "tools_consolidated": 0,
+          "audit_integrity": {
+            "valid": false,
+            "records_checked": 221,
+            "first_invalid": "aud_1771406765758_2973e61c",
+            "message": "Chain break at aud_1771406765758_2973e61c: expected parent 76057efccc5108ae822c795e10f389b77957693a53ff306ed0b3b346b6a23c1e, got 174c547122f2b58e90c1e9aa69e14178de5150d616d70a38ac03e81bcc839018"
+          }
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T07:37:13.469254",
-        "cycle": 131637,
+        "timestamp": "2026-02-18T07:41:04.957063",
+        "cycle": 131684,
+        "category": "MOATS",
+        "message": "Flywheel: 640 traces, 0% success rate, active=True",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:41:16.586439",
+        "cycle": 131686,
+        "category": "MEMORY",
+        "message": "Consolidation complete: {'consolidated': False, 'patterns_found': 0, 'decayed': True, 'garbage_collected': 0}",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:43:34.777402",
+        "cycle": 131713,
+        "category": "EVOLVE",
+        "message": "Attempting evolution: modules/memory_store.py - Add a 'write' method to the 'WorkingMemoryStore' class to handle data persistenc",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:46:05.955578",
+        "cycle": 131743,
+        "category": "BENCHMARK",
+        "message": "Performance: 1 improving, 1 declining",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:46:09.314653",
+        "cycle": 131744,
+        "category": "SCORECARD",
+        "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:46:10.443034",
+        "cycle": 131744,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #71: unknown \u2014 {\n    \"overall_health\": \"fair\",\n    \"one_liner\": \"My recent performance has shown consistent failure",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:46:10.443146",
+        "cycle": 131744,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: unknown \u2014 {\n    \"overall_health\": \"fair\",\n    \"one_liner\": \"My recent performance has show",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:49:28.228194",
+        "cycle": 131783,
         "category": "GOAL_FAIL",
-        "message": "Failed: Find and fix a bug in the codebase",
+        "message": "Failed: Improve test coverage for a module",
         "data": {
           "error": "some_steps_failed",
-          "goal_full": "Find and fix a bug in the codebase"
+          "goal_full": "Improve test coverage for a module"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T07:37:37.527463",
-        "cycle": 131642,
+        "timestamp": "2026-02-18T07:50:07.323122",
+        "cycle": 131791,
+        "category": "ENGINE",
+        "message": "medium cycle had 1 errors",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:50:29.907017",
+        "cycle": 131796,
+        "category": "GOAL_START",
+        "message": "Executing: Improve test coverage for a module",
+        "data": {
+          "category": "TEST",
+          "priority": 8,
+          "goal_full": "Improve test coverage for a module"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:51:13.828353",
+        "cycle": 131804,
+        "category": "BENCHMARK",
+        "message": "Performance: 1 improving, 1 declining",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:51:16.798824",
+        "cycle": 131805,
+        "category": "SCORECARD",
+        "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:51:18.072808",
+        "cycle": 131805,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #72: poor \u2014 Task Executor is consistently failing with a 100% failure rate, posing the single biggest risk to my current operation.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:51:18.072938",
+        "cycle": 131805,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: poor \u2014 Task Executor is consistently failing with a 100% failure rate, posing the singl",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:52:47.977947",
+        "cycle": 131823,
         "category": "MISSION",
         "message": "Executing: Morning prep: publish journal + briefing",
         "data": {},
-        "energy": 99
+        "energy": 100
       },
       {
-        "timestamp": "2026-02-18T07:37:37.544668",
-        "cycle": 131642,
+        "timestamp": "2026-02-18T07:52:48.004363",
+        "cycle": 131823,
         "category": "JOURNAL",
         "message": "Writing daily evolution journal entry",
         "data": {},
-        "energy": 99
+        "energy": 100
       }
     ],
-    "goal_queue_depth": 3,
+    "goal_queue_depth": 4,
     "model_router": {
       "local_tiny": {
         "total_calls": 135,
@@ -317,14 +293,14 @@
         "avg_latency": 0.6037572383880615
       },
       "local_medium": {
-        "total_calls": 3659,
+        "total_calls": 3716,
         "errors": 0,
-        "avg_latency": 1.0347038841247558
+        "avg_latency": 0.8110272359848022
       },
       "local_heavy": {
-        "total_calls": 117,
+        "total_calls": 120,
         "errors": 0,
-        "avg_latency": 7.111810936927795
+        "avg_latency": 7.129344177246094
       },
       "cloud_smart": {
         "total_calls": 0,
@@ -336,31 +312,24 @@
         "errors": 0,
         "avg_latency": 0
       },
-      "system_entropy": 0.4059308064238315,
+      "system_entropy": 0.39900438043612674,
       "chaos_mode": false
     },
     "resource_usage": {
-      "timestamp": "2026-02-18T07:37:37.544855",
+      "timestamp": "2026-02-18T07:52:48.004529",
       "memory_mb": 180.396032,
-      "gpu_vram_mb": 9177.0,
-      "gpu_util": 81.0,
-      "disk_used_gb": 427.451793408,
+      "gpu_vram_mb": 9174.0,
+      "gpu_util": 78.0,
+      "disk_used_gb": 427.630145536,
       "api_cost_today": 0.0,
       "memory_percent": 0.26788801183811733,
-      "disk_free_gb": 505.369018368,
+      "disk_free_gb": 505.19066624,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
-      "missions_executed": 21,
+      "missions_executed": 22,
       "current_mission": null,
       "recent_missions": [
-        {
-          "mission": "deep_evolution",
-          "timestamp": "2026-02-18T04:57:46.841278",
-          "result": "{'benchmarks': {'timestamp': '2026-02-18T04:55:25.305453', 'uptime_hours': 3.318827377777778, 'cycle': 129779, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_func",
-          "success": true,
-          "duration_sec": 141.5
-        },
         {
           "mission": "deep_evolution",
           "timestamp": "2026-02-18T05:15:11.975826",
@@ -423,10 +392,17 @@
           "result": "{'journal': {'date': '2026-02-18', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-18.md', 'pushed': False}}",
           "success": true,
           "duration_sec": 6.6
+        },
+        {
+          "mission": "morning_prep",
+          "timestamp": "2026-02-18T07:37:42.255558",
+          "result": "{'journal': {'date': '2026-02-18', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-18.md', 'pushed': False}}",
+          "success": true,
+          "duration_sec": 4.7
         }
       ],
       "github_contributions": 0,
-      "journal_entries": 6,
+      "journal_entries": 7,
       "revenue_services": 0
     },
     "insight_applier": {
@@ -448,10 +424,10 @@
       "topics": []
     },
     "performance_tracker": {
-      "total_snapshots": 69
+      "total_snapshots": 72
     },
     "health_diagnosis": {
-      "total_checks": 69,
+      "total_checks": 72,
       "total_remediations": 0,
       "last_health_score": 95
     },
@@ -461,7 +437,7 @@
       "recent_concepts": []
     },
     "failure_predictor": {
-      "predictions_made": 22,
+      "predictions_made": 23,
       "predictions_correct": 0,
       "accuracy": 0.0,
       "high_risk_prevented": 0
@@ -476,19 +452,19 @@
       ]
     },
     "evolution_validator": {
-      "validations_run": 53,
-      "validations_passed": 24,
+      "validations_run": 54,
+      "validations_passed": 25,
       "validations_rejected": 29,
-      "pass_rate": 0.453
+      "pass_rate": 0.463
     },
     "task_executor": {
-      "total_executions": 147,
+      "total_executions": 149,
       "successes": 0,
-      "failures": 147,
+      "failures": 148,
       "success_rate": 0.0
     },
     "autonomy_scorecard": {
-      "total_scores": 69,
+      "total_scores": 72,
       "latest_score": 0.0
     },
     "discovery_processor": {
@@ -497,21 +473,21 @@
       "docs_created": 0
     },
     "introspection": {
-      "total_introspections": 69,
-      "last_health": "fair",
-      "last_one_liner": "Current performance is inconsistent with high failure rates, particularly from task_executor and evolution_validator."
+      "total_introspections": 72,
+      "last_health": "poor",
+      "last_one_liner": "Task Executor is consistently failing with a 100% failure rate, posing the single biggest risk to my current operation."
     },
     "shell_executor": {
-      "total_executions": 162,
+      "total_executions": 164,
       "successes": 28,
-      "failures": 134,
-      "success_rate": 0.173,
-      "total_runtime_sec": 10027.1,
+      "failures": 135,
+      "success_rate": 0.171,
+      "total_runtime_sec": 10689.7,
       "allowed_commands": 47
     },
     "notifier": {
       "total_sent": 24,
-      "total_suppressed": 112,
+      "total_suppressed": 118,
       "stored_alerts": 96,
       "channels": {
         "file": true,
@@ -524,14 +500,14 @@
       "last_journal_date": null
     },
     "adaptive_scheduler": {
-      "current_interval_sec": 599,
-      "current_interval_min": 10.0,
-      "total_adjustments": 69,
+      "current_interval_sec": 942,
+      "current_interval_min": 15.7,
+      "total_adjustments": 72,
       "last_factors": {
         "time_of_day": "day (0.8x)",
         "energy": "high 100% (0.7x)",
-        "queue": "active 3 goals (0.85x)",
-        "activity": "very active 16/20 (0.7x)",
+        "queue": "active 4 goals (0.85x)",
+        "activity": "quiet 4/20 (1.1x)",
         "health": "good 95/100 (1.0x)"
       }
     },
@@ -655,20 +631,20 @@
     },
     "engine_orchestrator": {
       "state": "running",
-      "cycle_count": 107,
+      "cycle_count": 111,
       "cycles": {
-        "fast": 89,
-        "medium": 13,
+        "fast": 92,
+        "medium": 14,
         "slow": 4,
         "daily": 1
       },
       "total_problems_solved": 0,
       "total_improvements": 0,
       "queue": {
-        "pending": 28,
+        "pending": 23,
         "in_progress": 0,
         "completed": 0,
-        "total": 28
+        "total": 23
       },
       "engines_loaded": [
         "safety",
@@ -705,7 +681,7 @@
       "safety_stats": {
         "sandbox_executions": 0,
         "sandbox_violations": 0,
-        "spec_checks": 89,
+        "spec_checks": 93,
         "spec_denials": 0,
         "consistency_checks": 0,
         "inconsistencies": 0,
@@ -716,11 +692,11 @@
         "human_auto_approved": 0
       },
       "reflexion_stats": {
-        "problems_attempted": 124,
+        "problems_attempted": 130,
         "problems_solved": 0,
         "solve_rate": 0.0,
         "total_reflections": 0,
-        "total_attempts": 258
+        "total_attempts": 270
       },
       "anomaly_detector_stats": {
         "tracked_metrics": 0,
@@ -1020,24 +996,24 @@
     },
     "moat_system": {
       "moat_5_audit": {
-        "total_records": 1354,
+        "total_records": 1403,
         "by_category": {
-          "system_event": 7,
-          "task_execution": 1347
+          "system_event": 8,
+          "task_execution": 1395
         },
         "by_risk_level": {
-          "low": 478,
-          "medium": 876
+          "low": 498,
+          "medium": 905
         },
         "self_modifications": 0,
-        "policy_violations": 24,
-        "last_record_at": "2026-02-18T15:37:13.430659+00:00",
-        "chain_length": 1354
+        "policy_violations": 25,
+        "last_record_at": "2026-02-18T15:51:11.821697+00:00",
+        "chain_length": 1403
       },
       "moat_4_flywheel": {
-        "total_traces": 633,
+        "total_traces": 657,
         "successful_traces": 0,
-        "failed_traces": 471,
+        "failed_traces": 489,
         "success_rate": 0.0,
         "error_patterns_detected": 1,
         "few_shot_retrievals": 0,
@@ -1053,12 +1029,12 @@
       },
       "moat_1_improvement": {
         "reflections": {
-          "total_reflections": 876,
+          "total_reflections": 905,
           "helpful_reflections": 0,
           "helpfulness_rate": 0.0,
           "top_error_types": {},
-          "reflections_created": 273,
-          "reflections_retrieved": 242
+          "reflections_created": 275,
+          "reflections_retrieved": 246
         },
         "best_variant": 0.0
       },
@@ -1068,33 +1044,33 @@
       "active": true,
       "engine_modules": 53,
       "moats_active": true,
-      "probes_enriched": 147,
-      "judgments_enriched": 147,
+      "probes_enriched": 149,
+      "judgments_enriched": 148,
       "gaps_enriched": 0,
       "interventions_prepared": 0,
-      "outcomes_recorded": 147
+      "outcomes_recorded": 148
     },
     "cortex_bridge": {
       "active": true,
-      "learnings_stored": 147,
-      "memories_retrieved": 147,
+      "learnings_stored": 148,
+      "memories_retrieved": 149,
       "patterns_promoted": 0,
       "promotion_cycles": 0,
       "pending": 0
     },
     "reliability": {
       "active": true,
-      "total_outcomes_tracked": 180,
+      "total_outcomes_tracked": 182,
       "alerts": 30
     },
     "autonomy_pipeline": {
       "active": true,
-      "total_runs": 147,
+      "total_runs": 148,
       "successes": 0,
-      "failures": 147,
+      "failures": 148,
       "blocked": 0,
       "deferred": 0,
-      "total_improvements": 294,
+      "total_improvements": 296,
       "avg_duration_ms": 0,
       "pipeline_stages": [
         "sense",
@@ -1110,12 +1086,12 @@
   },
   "metrics": {
     "tasks_completed": 695,
-    "tasks_failed": 205,
+    "tasks_failed": 206,
     "evolutions": 2,
     "goals_generated": 877,
     "api_calls_local": 508,
     "api_calls_cloud": 187,
     "cost_today": 0.0,
-    "uptime_seconds": 21677.032397
+    "uptime_seconds": 22587.582199
   }
 }
