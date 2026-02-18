@@ -1,0 +1,610 @@
+{
+  "date": "2026-02-17",
+  "status": {
+    "version": "2.0.0",
+    "codename": "AUTONOMY",
+    "state": "AUTONOMOUS",
+    "energy": 100,
+    "cycles": 125262,
+    "uptime_seconds": 15471.320603,
+    "uptime_human": "4:17:51",
+    "start_time": "2026-02-17T17:51:12.671870",
+    "metrics": {
+      "tasks_completed": 695,
+      "tasks_failed": 51,
+      "evolutions": 1,
+      "goals_generated": 877,
+      "api_calls_local": 508,
+      "api_calls_cloud": 187,
+      "cost_today": 0.0,
+      "uptime_seconds": 15473.287134
+    },
+    "subsystems": {
+      "heartbeat": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "motivation": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "events": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "evolution": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "resources": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "dashboard": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "missions": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "memory": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "sensorium": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "feedback": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "goal_executor": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      }
+    },
+    "recent_activity": [
+      {
+        "timestamp": "2026-02-17T22:05:45.729469",
+        "cycle": 125223,
+        "category": "GOAL_START",
+        "message": "Executing: Self-evolve a core module using the evolution engine",
+        "data": {
+          "category": "EVOLVE",
+          "priority": 7,
+          "goal_full": "Self-evolve a core module using the evolution engine"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:05:45.731004",
+        "cycle": 125223,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Self-evolve a core module using the evolution engine",
+        "data": {
+          "risk": 0.7619047619047619
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:06:15.731739",
+        "cycle": 125229,
+        "category": "GOAL_START",
+        "message": "Executing: Build a useful tool and ship to GitHub",
+        "data": {
+          "category": "BUILD",
+          "priority": 1,
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:06:15.733548",
+        "cycle": 125229,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Build a useful tool and ship to GitHub",
+        "data": {
+          "risk": 0.7042682926829268
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:06:45.734844",
+        "cycle": 125235,
+        "category": "GOAL_START",
+        "message": "Executing: Research and identify OSS contribution opportunity",
+        "data": {
+          "category": "RESEARCH",
+          "priority": 9,
+          "goal_full": "Research and identify OSS contribution opportunity"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:06:45.736328",
+        "cycle": 125235,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
+        "data": {
+          "risk": 0.7166666666666667
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:07:15.737731",
+        "cycle": 125241,
+        "category": "GOAL_START",
+        "message": "Executing: Optimize resource usage and clear caches",
+        "data": {
+          "category": "RESOURCE",
+          "priority": 7,
+          "goal_full": "Optimize resource usage and clear caches"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:07:15.739472",
+        "cycle": 125241,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Optimize resource usage and clear caches",
+        "data": {
+          "risk": 1.0
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:07:45.739974",
+        "cycle": 125247,
+        "category": "GOAL_START",
+        "message": "Executing: Build a useful tool and ship to GitHub",
+        "data": {
+          "category": "BUILD",
+          "priority": 7,
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:07:45.741663",
+        "cycle": 125247,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Build a useful tool and ship to GitHub",
+        "data": {
+          "risk": 0.7042682926829268
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:15.743665",
+        "cycle": 125252,
+        "category": "GOAL_START",
+        "message": "Executing: Research and identify OSS contribution opportunity",
+        "data": {
+          "category": "RESEARCH",
+          "priority": 4,
+          "goal_full": "Research and identify OSS contribution opportunity"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:15.744842",
+        "cycle": 125252,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Research and identify OSS contribution opportunity",
+        "data": {
+          "risk": 0.7166666666666667
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:33.050823",
+        "cycle": 125256,
+        "category": "BENCHMARK",
+        "message": "Performance: 0 improving, 3 declining",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:35.199586",
+        "cycle": 125256,
+        "category": "SCORECARD",
+        "message": "Autonomy: 0.6/100 \u2014 Autonomy: 0.6/100 | Strong: prediction_accuracy(6), learning_velocity(0), execut",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:36.441930",
+        "cycle": 125257,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #26: fair \u2014 Self-execution tasks have a dismal success rate, posing the biggest operational risk.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:36.442070",
+        "cycle": 125257,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: fair \u2014 Self-execution tasks have a dismal success rate, posing the biggest operational ",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:45.746354",
+        "cycle": 125258,
+        "category": "GOAL_START",
+        "message": "Executing: Build a useful tool and ship to GitHub",
+        "data": {
+          "category": "BUILD",
+          "priority": 6,
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:08:45.748113",
+        "cycle": 125258,
+        "category": "GOAL_FAIL",
+        "message": "Skipped (high risk): Build a useful tool and ship to GitHub",
+        "data": {
+          "risk": 0.7042682926829268
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:09:03.975533",
+        "cycle": 125262,
+        "category": "MISSION",
+        "message": "Executing: End of day: write journal + metrics + plan tomorrow",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-17T22:09:03.992383",
+        "cycle": 125262,
+        "category": "JOURNAL",
+        "message": "Writing daily evolution journal entry",
+        "data": {},
+        "energy": 100
+      }
+    ],
+    "goal_queue_depth": 4,
+    "model_router": {
+      "local_tiny": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "local_medium": {
+        "total_calls": 700,
+        "errors": 0,
+        "avg_latency": 0.8953889846801758
+      },
+      "local_heavy": {
+        "total_calls": 22,
+        "errors": 0,
+        "avg_latency": 7.364087700843811
+      },
+      "cloud_smart": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "cloud_genius": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "system_entropy": 0.39747417473782054,
+      "chaos_mode": false
+    },
+    "resource_usage": {
+      "timestamp": "2026-02-17T22:09:03.992533",
+      "memory_mb": 123.06432,
+      "gpu_vram_mb": 9092.0,
+      "gpu_util": 86.0,
+      "disk_used_gb": 426.236133376,
+      "api_cost_today": 0.0,
+      "memory_percent": 0.18275044992680248,
+      "disk_free_gb": 506.5846784,
+      "gpu_vram_total_mb": 24564.0
+    },
+    "missions": {
+      "missions_executed": 17,
+      "current_mission": null,
+      "recent_missions": [
+        {
+          "mission": "pr_management",
+          "timestamp": "2026-02-17T19:37:52.882882",
+          "result": "{'status': 'pr_review_cycle', 'contributions': []}",
+          "success": true,
+          "duration_sec": 0.0
+        },
+        {
+          "mission": "pr_management",
+          "timestamp": "2026-02-17T19:52:59.109136",
+          "result": "{'status': 'pr_review_cycle', 'contributions': []}",
+          "success": true,
+          "duration_sec": 0.0
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T20:08:05.975635",
+          "result": "{'research': \"1. The topic: Development of a multimodal pre-trained model incorporating both visual and audio data.\\n   \\n   2. Why it matters for autonomy: In today's autonomous systems, the ability to understand and interpret various inputs such as images and sounds is crucial. A multimodal pre-tr",
+          "success": true,
+          "duration_sec": 0.9
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T20:23:13.132288",
+          "result": "{'research': '1. The topic: Development of Explainable AI (XAI) Techniques for Enhanced Autonomous Systems Understanding\\n2. Why it matters for autonomy: In the realm of autonomous systems, understanding and explaining the decisions made by these systems is crucial for trust-building and decision ac",
+          "success": true,
+          "duration_sec": 0.9
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T20:38:21.199950",
+          "result": "{'research': '1. The topic: **Novel Multi-Agent Architectures and Coordination Techniques**\\n2. Why it matters for autonomy: \\n   - Multi-agent systems (MAS) are increasingly important in enhancing the capabilities of autonomous systems to work together effectively in complex environments. Novel arc",
+          "success": true,
+          "duration_sec": 1.1
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T20:53:28.849076",
+          "result": "{'research': \"1. The topic: \\nDevelopment of a multimodal reasoning model that integrates visual and auditory inputs.\\n\\n2. Why it matters for autonomy:\\nIn today's AI landscape, the ability to process and understand both visual and auditory information is becoming increasingly important as autonomo",
+          "success": true,
+          "duration_sec": 1.0
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T21:08:36.120389",
+          "result": "{'research': \"1. The topic: Novel multimodal language and vision models that incorporate self-supervised learning techniques.\\n2. Why it matters for autonomy: Enhancing autonomous systems' ability to understand and interpret both natural language and visual inputs, as well as learn from limited labe",
+          "success": true,
+          "duration_sec": 0.9
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T21:23:43.806367",
+          "result": "{'research': '1. The topic: Development and integration of multimodal perception models into AI systems.\\n   \\n2. Why it matters for autonomy: Traditional autonomous systems often rely heavily on visual or auditory inputs to perceive their environment. However, in many real-world scenarios, other fo",
+          "success": true,
+          "duration_sec": 0.9
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T21:38:50.539316",
+          "result": "{'research': '1. The topic: **Novel agent architectures from recent papers**\\n   \\n2. Why it matters for autonomy:  \\nUnderstanding and integrating novel agent architectures can significantly enhance the capabilities of autonomous systems. These architectures often introduce new mechanisms for decis",
+          "success": true,
+          "duration_sec": 1.1
+        },
+        {
+          "mission": "research_exploration",
+          "timestamp": "2026-02-17T21:53:57.618317",
+          "result": "{'research': '1. The topic: Novel multimodal pre-trained language models (MM-PPLMs)\\n2. Why it matters for autonomy: Enhancing the ability of autonomous systems to understand and respond effectively to complex interactions that involve both text and visual information, which is increasingly common i",
+          "success": true,
+          "duration_sec": 0.9
+        }
+      ],
+      "github_contributions": 0,
+      "journal_entries": 0,
+      "revenue_services": 0
+    },
+    "insight_applier": {
+      "total_adjustments": 0,
+      "routing_shifts": {},
+      "recent_adjustments": []
+    },
+    "memory_consolidator": {
+      "total_consolidations": 0,
+      "consolidated_episode_ids": 0
+    },
+    "skill_extractor": {
+      "total_extractions": 0,
+      "processed_tasks": 0
+    },
+    "knowledge_enrichment": {
+      "total_enrichments": 0,
+      "attempted_topics": 0,
+      "topics": []
+    },
+    "performance_tracker": {
+      "total_snapshots": 26
+    },
+    "health_diagnosis": {
+      "total_checks": 26,
+      "total_remediations": 0,
+      "last_health_score": 95
+    },
+    "auto_researcher": {
+      "total_researches": 0,
+      "concepts_researched": 0,
+      "recent_concepts": []
+    },
+    "failure_predictor": {
+      "predictions_made": 479,
+      "predictions_correct": 21,
+      "accuracy": 0.044,
+      "high_risk_prevented": 437
+    },
+    "smart_goals": {
+      "total_goals_generated": 4,
+      "recent_goals": [
+        "fix recurring failure: agent 'task_executor' has 100.0% failure rate",
+        "fix recurring failure: agent 'researcher' has 66.7% failure rate",
+        "practice skill: 62211468dcc78c0d",
+        "improve declining metric: episodic memories (down 100%)"
+      ]
+    },
+    "evolution_validator": {
+      "validations_run": 7,
+      "validations_passed": 4,
+      "validations_rejected": 3,
+      "pass_rate": 0.571
+    },
+    "task_executor": {
+      "total_executions": 24,
+      "successes": 0,
+      "failures": 24,
+      "success_rate": 0.0
+    },
+    "autonomy_scorecard": {
+      "total_scores": 26,
+      "latest_score": 0.6
+    },
+    "discovery_processor": {
+      "discoveries_processed": 0,
+      "goals_created": 0,
+      "docs_created": 0
+    },
+    "introspection": {
+      "total_introspections": 26,
+      "last_health": "fair",
+      "last_one_liner": "Self-execution tasks have a dismal success rate, posing the biggest operational risk."
+    },
+    "shell_executor": {
+      "total_executions": 24,
+      "successes": 5,
+      "failures": 19,
+      "success_rate": 0.208,
+      "total_runtime_sec": 599.1,
+      "allowed_commands": 47
+    },
+    "notifier": {
+      "total_sent": 17,
+      "total_suppressed": 33,
+      "stored_alerts": 52,
+      "channels": {
+        "file": true,
+        "desktop": true,
+        "webhook": false
+      }
+    },
+    "daily_journal": {
+      "journals_generated": 0,
+      "last_journal_date": null
+    },
+    "adaptive_scheduler": {
+      "current_interval_sec": 599,
+      "current_interval_min": 10.0,
+      "total_adjustments": 26,
+      "last_factors": {
+        "time_of_day": "day (0.8x)",
+        "energy": "high 100% (0.7x)",
+        "queue": "active 3 goals (0.85x)",
+        "activity": "very active 20/20 (0.7x)",
+        "health": "good 95/100 (1.0x)"
+      }
+    },
+    "dependency_graph": {
+      "total_nodes": 30,
+      "total_edges": 45,
+      "tiers": {
+        "core": 6,
+        "intelligence": 1,
+        "memory": 1,
+        "drive": 2,
+        "meta": 3,
+        "execution": 3,
+        "interface": 2,
+        "perception": 1,
+        "learning": 7,
+        "monitoring": 4
+      },
+      "critical_path": [
+        "cortex",
+        "event_bus",
+        "heartbeat",
+        "resource_guard",
+        "state_manager",
+        "task_supervisor",
+        "model_router",
+        "motivation"
+      ]
+    },
+    "capability_registry": {
+      "total_capabilities": 21,
+      "categories": {
+        "llm": 4,
+        "shell": 6,
+        "memory": 4,
+        "file": 2,
+        "analysis": 3,
+        "communication": 2
+      },
+      "most_used": [
+        [
+          "llm_local_tiny",
+          0
+        ],
+        [
+          "llm_local_medium",
+          0
+        ],
+        [
+          "llm_cloud_smart",
+          0
+        ],
+        [
+          "llm_cloud_genius",
+          0
+        ],
+        [
+          "shell_python",
+          0
+        ]
+      ]
+    },
+    "conversation_manager": {
+      "active_conversations": 0,
+      "total_created": 0,
+      "total_messages": 0
+    },
+    "codebase_analyzer": {
+      "analyses_run": 0,
+      "last_files_analyzed": 0,
+      "last_total_lines": 0,
+      "evolution_targets": 0
+    },
+    "goal_decomposer": {
+      "decompositions": 0,
+      "subgoals_created": 0
+    },
+    "experiment_tracker": {
+      "active_experiments": 0,
+      "total_experiments": 0,
+      "improved_count": 0
+    }
+  },
+  "metrics": {
+    "tasks_completed": 695,
+    "tasks_failed": 51,
+    "evolutions": 1,
+    "goals_generated": 877,
+    "api_calls_local": 508,
+    "api_calls_cloud": 187,
+    "cost_today": 0.0,
+    "uptime_seconds": 15468.269988
+  }
+}
