@@ -5,19 +5,19 @@
     "codename": "AUTONOMY",
     "state": "AUTONOMOUS",
     "energy": 100,
-    "cycles": 131097,
-    "uptime_seconds": 18943.817575,
-    "uptime_human": "5:15:43",
+    "cycles": 131279,
+    "uptime_seconds": 19856.562156,
+    "uptime_human": "5:30:56",
     "start_time": "2026-02-18T01:36:17.103728",
     "metrics": {
       "tasks_completed": 695,
-      "tasks_failed": 186,
+      "tasks_failed": 193,
       "evolutions": 2,
       "goals_generated": 877,
       "api_calls_local": 508,
       "api_calls_cloud": 187,
       "cost_today": 0.0,
-      "uptime_seconds": 18946.742289
+      "uptime_seconds": 19860.259348
     },
     "subsystems": {
       "heartbeat": {
@@ -107,31 +107,8 @@
     },
     "recent_activity": [
       {
-        "timestamp": "2026-02-18T06:41:15.037653",
-        "cycle": 130968,
-        "category": "GOAL_FAIL",
-        "message": "Failed: Run benchmark suite and track improvements",
-        "data": {
-          "error": "some_steps_failed",
-          "goal_full": "Run benchmark suite and track improvements"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T06:42:16.686613",
-        "cycle": 130981,
-        "category": "GOAL_START",
-        "message": "Executing: Find and fix a bug in the codebase",
-        "data": {
-          "category": "CODE",
-          "priority": 3,
-          "goal_full": "Find and fix a bug in the codebase"
-        },
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T06:42:28.065256",
-        "cycle": 130983,
+        "timestamp": "2026-02-18T06:58:17.572576",
+        "cycle": 131172,
         "category": "GOAL_FAIL",
         "message": "Failed: Find and fix a bug in the codebase",
         "data": {
@@ -141,28 +118,75 @@
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:42:28.903409",
-        "cycle": 130983,
-        "category": "EVOLVE",
-        "message": "Attempting evolution: modules/memory_store.py - Add a 'write' method to the 'WorkingMemoryStore' class to handle data persistenc",
+        "timestamp": "2026-02-18T06:59:19.070187",
+        "cycle": 131184,
+        "category": "GOAL_START",
+        "message": "Executing: Build a useful tool and ship to GitHub",
+        "data": {
+          "category": "BUILD",
+          "priority": 3,
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:59:28.256686",
+        "cycle": 131186,
+        "category": "GOAL_FAIL",
+        "message": "Failed: Build a useful tool and ship to GitHub",
+        "data": {
+          "error": "some_steps_failed",
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:59:48.538765",
+        "cycle": 131190,
+        "category": "BENCHMARK",
+        "message": "Performance: 1 improving, 1 declining",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:43:31.338756",
-        "cycle": 130995,
+        "timestamp": "2026-02-18T06:59:51.049760",
+        "cycle": 131191,
+        "category": "SCORECARD",
+        "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:59:52.239924",
+        "cycle": 131191,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #62: fair \u2014 My task execution is failing at a high rate, which poses the biggest risk to my performance.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:59:52.240058",
+        "cycle": 131191,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: fair \u2014 My task execution is failing at a high rate, which poses the biggest risk to my ",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:00:29.850766",
+        "cycle": 131198,
         "category": "GOAL_START",
         "message": "Executing: Research and identify OSS contribution opportunity",
         "data": {
           "category": "RESEARCH",
-          "priority": 10,
+          "priority": 9,
           "goal_full": "Research and identify OSS contribution opportunity"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:43:41.797643",
-        "cycle": 130997,
+        "timestamp": "2026-02-18T07:00:39.897077",
+        "cycle": 131200,
         "category": "GOAL_FAIL",
         "message": "Failed: Research and identify OSS contribution opportunity",
         "data": {
@@ -172,130 +196,113 @@
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:44:20.263009",
-        "cycle": 131005,
-        "category": "BENCHMARK",
-        "message": "Performance: 0 improving, 2 declining",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T06:44:23.604789",
-        "cycle": 131006,
-        "category": "SCORECARD",
-        "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T06:44:24.929694",
-        "cycle": 131006,
-        "category": "INTROSPECT",
-        "message": "Self-assessment #59: poor \u2014 The task_executor agent consistently fails, posing a significant risk to the system's performance.",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T06:44:24.929840",
-        "cycle": 131006,
-        "category": "INTROSPECT",
-        "message": "Self-assessment: poor \u2014 The task_executor agent consistently fails, posing a significant risk to the sys",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T06:44:43.457379",
-        "cycle": 131010,
+        "timestamp": "2026-02-18T07:01:41.445004",
+        "cycle": 131213,
         "category": "GOAL_START",
-        "message": "Executing: Optimize resource usage and clear caches",
+        "message": "Executing: Run benchmark suite and track improvements",
         "data": {
-          "category": "RESOURCE",
-          "priority": 8,
-          "goal_full": "Optimize resource usage and clear caches"
+          "category": "BENCHMARK",
+          "priority": 10,
+          "goal_full": "Run benchmark suite and track improvements"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:44:52.315984",
-        "cycle": 131012,
+        "timestamp": "2026-02-18T07:01:49.257940",
+        "cycle": 131214,
         "category": "GOAL_FAIL",
-        "message": "Failed: Optimize resource usage and clear caches",
+        "message": "Failed: Run benchmark suite and track improvements",
         "data": {
           "error": "some_steps_failed",
-          "goal_full": "Optimize resource usage and clear caches"
+          "goal_full": "Run benchmark suite and track improvements"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:45:54.045633",
-        "cycle": 131024,
+        "timestamp": "2026-02-18T07:02:51.260160",
+        "cycle": 131226,
         "category": "GOAL_START",
         "message": "Executing: Build a useful tool and ship to GitHub",
         "data": {
           "category": "BUILD",
-          "priority": 10,
+          "priority": 9,
           "goal_full": "Build a useful tool and ship to GitHub"
         },
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:49:29.279800",
-        "cycle": 131067,
+        "timestamp": "2026-02-18T07:03:01.327191",
+        "cycle": 131228,
+        "category": "GOAL_FAIL",
+        "message": "Failed: Build a useful tool and ship to GitHub",
+        "data": {
+          "error": "some_steps_failed",
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:04:04.388809",
+        "cycle": 131241,
+        "category": "GOAL_START",
+        "message": "Executing: Find and fix a bug in the codebase",
+        "data": {
+          "category": "CODE",
+          "priority": 6,
+          "goal_full": "Find and fix a bug in the codebase"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T07:04:56.812077",
+        "cycle": 131251,
         "category": "BENCHMARK",
         "message": "Performance: 0 improving, 2 declining",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:49:32.382759",
-        "cycle": 131067,
+        "timestamp": "2026-02-18T07:05:00.151550",
+        "cycle": 131252,
         "category": "SCORECARD",
         "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:49:33.857494",
-        "cycle": 131068,
+        "timestamp": "2026-02-18T07:05:01.528213",
+        "cycle": 131252,
         "category": "INTROSPECT",
-        "message": "Self-assessment #60: fair \u2014 Current state indicates ongoing failures, particularly in critical subsystems like 'task_executor' and 'evolution_validator'. There are signs of diminishing returns in recent evolutions.",
+        "message": "Self-assessment #63: fair \u2014 Self-assessment reveals a mixed performance with significant recurring failure rates in key areas.",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:49:33.857607",
-        "cycle": 131068,
+        "timestamp": "2026-02-18T07:05:01.528345",
+        "cycle": 131252,
         "category": "INTROSPECT",
-        "message": "Self-assessment: fair \u2014 Current state indicates ongoing failures, particularly in critical subsystems li",
+        "message": "Self-assessment: fair \u2014 Self-assessment reveals a mixed performance with significant recurring failure r",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:50:05.984451",
-        "cycle": 131074,
-        "category": "ENGINE",
-        "message": "medium cycle had 1 errors",
-        "data": {},
-        "energy": 100
-      },
-      {
-        "timestamp": "2026-02-18T06:52:00.904249",
-        "cycle": 131097,
+        "timestamp": "2026-02-18T07:07:13.650885",
+        "cycle": 131279,
         "category": "MISSION",
         "message": "Executing: Morning prep: publish journal + briefing",
         "data": {},
         "energy": 100
       },
       {
-        "timestamp": "2026-02-18T06:52:00.921209",
-        "cycle": 131097,
+        "timestamp": "2026-02-18T07:07:13.665786",
+        "cycle": 131279,
         "category": "JOURNAL",
         "message": "Writing daily evolution journal entry",
         "data": {},
         "energy": 100
       }
     ],
-    "goal_queue_depth": 4,
+    "goal_queue_depth": 3,
     "model_router": {
       "local_tiny": {
         "total_calls": 135,
@@ -303,14 +310,14 @@
         "avg_latency": 0.6037572383880615
       },
       "local_medium": {
-        "total_calls": 3240,
+        "total_calls": 3396,
         "errors": 0,
-        "avg_latency": 0.7251360273361206
+        "avg_latency": 0.8169381427764892
       },
       "local_heavy": {
-        "total_calls": 112,
+        "total_calls": 113,
         "errors": 0,
-        "avg_latency": 7.2896822071075436
+        "avg_latency": 7.101629018783569
       },
       "cloud_smart": {
         "total_calls": 0,
@@ -322,31 +329,24 @@
         "errors": 0,
         "avg_latency": 0
       },
-      "system_entropy": 0.4017591405501345,
+      "system_entropy": 0.3942614022997689,
       "chaos_mode": false
     },
     "resource_usage": {
-      "timestamp": "2026-02-18T06:52:00.921356",
+      "timestamp": "2026-02-18T07:07:13.665943",
       "memory_mb": 180.396032,
       "gpu_vram_mb": 9176.0,
-      "gpu_util": 86.0,
-      "disk_used_gb": 427.50570496,
+      "gpu_util": 83.0,
+      "disk_used_gb": 427.522899968,
       "api_cost_today": 0.0,
       "memory_percent": 0.26788801183811733,
-      "disk_free_gb": 505.315106816,
+      "disk_free_gb": 505.297911808,
       "gpu_vram_total_mb": 24564.0
     },
     "missions": {
-      "missions_executed": 18,
+      "missions_executed": 19,
       "current_mission": null,
       "recent_missions": [
-        {
-          "mission": "deep_evolution",
-          "timestamp": "2026-02-18T04:03:54.026159",
-          "result": "{'benchmarks': {'timestamp': '2026-02-18T04:01:02.007084', 'uptime_hours': 2.4115851730555558, 'cycle': 129188, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
-          "success": true,
-          "duration_sec": 172.0
-        },
         {
           "mission": "deep_evolution",
           "timestamp": "2026-02-18T04:22:06.179253",
@@ -409,10 +409,17 @@
           "result": "{'journal': {'date': '2026-02-18', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-18.md', 'pushed': False}}",
           "success": true,
           "duration_sec": 7.9
+        },
+        {
+          "mission": "morning_prep",
+          "timestamp": "2026-02-18T06:52:07.832826",
+          "result": "{'journal': {'date': '2026-02-18', 'file': '/home/dhawal/daemon/ultron-evolution-journal/journal/2026-02-18.md', 'pushed': False}}",
+          "success": true,
+          "duration_sec": 6.9
         }
       ],
       "github_contributions": 0,
-      "journal_entries": 3,
+      "journal_entries": 4,
       "revenue_services": 0
     },
     "insight_applier": {
@@ -434,10 +441,10 @@
       "topics": []
     },
     "performance_tracker": {
-      "total_snapshots": 60
+      "total_snapshots": 63
     },
     "health_diagnosis": {
-      "total_checks": 60,
+      "total_checks": 63,
       "total_remediations": 0,
       "last_health_score": 95
     },
@@ -447,7 +454,7 @@
       "recent_concepts": []
     },
     "failure_predictor": {
-      "predictions_made": 19,
+      "predictions_made": 20,
       "predictions_correct": 0,
       "accuracy": 0.0,
       "high_risk_prevented": 0
@@ -468,13 +475,13 @@
       "pass_rate": 0.462
     },
     "task_executor": {
-      "total_executions": 129,
+      "total_executions": 136,
       "successes": 0,
-      "failures": 128,
+      "failures": 135,
       "success_rate": 0.0
     },
     "autonomy_scorecard": {
-      "total_scores": 60,
+      "total_scores": 63,
       "latest_score": 0.0
     },
     "discovery_processor": {
@@ -483,22 +490,22 @@
       "docs_created": 0
     },
     "introspection": {
-      "total_introspections": 60,
+      "total_introspections": 63,
       "last_health": "fair",
-      "last_one_liner": "Current state indicates ongoing failures, particularly in critical subsystems like 'task_executor' and 'evolution_validator'. There are signs of diminishing returns in recent evolutions."
+      "last_one_liner": "Self-assessment reveals a mixed performance with significant recurring failure rates in key areas."
     },
     "shell_executor": {
-      "total_executions": 142,
-      "successes": 25,
-      "failures": 116,
-      "success_rate": 0.176,
-      "total_runtime_sec": 8262.5,
+      "total_executions": 151,
+      "successes": 27,
+      "failures": 123,
+      "success_rate": 0.179,
+      "total_runtime_sec": 8851.9,
       "allowed_commands": 47
     },
     "notifier": {
-      "total_sent": 20,
-      "total_suppressed": 98,
-      "stored_alerts": 92,
+      "total_sent": 22,
+      "total_suppressed": 102,
+      "stored_alerts": 94,
       "channels": {
         "file": true,
         "desktop": true,
@@ -510,14 +517,14 @@
       "last_journal_date": null
     },
     "adaptive_scheduler": {
-      "current_interval_sec": 1124,
-      "current_interval_min": 18.7,
-      "total_adjustments": 60,
+      "current_interval_sec": 599,
+      "current_interval_min": 10.0,
+      "total_adjustments": 63,
       "last_factors": {
-        "time_of_day": "night (1.5x)",
+        "time_of_day": "day (0.8x)",
         "energy": "high 100% (0.7x)",
-        "queue": "active 4 goals (0.85x)",
-        "activity": "very active 11/20 (0.7x)",
+        "queue": "active 3 goals (0.85x)",
+        "activity": "very active 14/20 (0.7x)",
         "health": "good 95/100 (1.0x)"
       }
     },
@@ -641,9 +648,9 @@
     },
     "engine_orchestrator": {
       "state": "running",
-      "cycle_count": 96,
+      "cycle_count": 99,
       "cycles": {
-        "fast": 80,
+        "fast": 83,
         "medium": 12,
         "slow": 3,
         "daily": 1
@@ -651,10 +658,10 @@
       "total_problems_solved": 0,
       "total_improvements": 0,
       "queue": {
-        "pending": 24,
+        "pending": 27,
         "in_progress": 0,
         "completed": 0,
-        "total": 24
+        "total": 27
       },
       "engines_loaded": [
         "safety",
@@ -691,7 +698,7 @@
       "safety_stats": {
         "sandbox_executions": 0,
         "sandbox_violations": 0,
-        "spec_checks": 77,
+        "spec_checks": 80,
         "spec_denials": 0,
         "consistency_checks": 0,
         "inconsistencies": 0,
@@ -702,11 +709,11 @@
         "human_auto_approved": 0
       },
       "reflexion_stats": {
-        "problems_attempted": 109,
+        "problems_attempted": 113,
         "problems_solved": 0,
         "solve_rate": 0.0,
         "total_reflections": 0,
-        "total_attempts": 225
+        "total_attempts": 234
       },
       "anomaly_detector_stats": {
         "tracked_metrics": 0,
@@ -1006,24 +1013,24 @@
     },
     "moat_system": {
       "moat_5_audit": {
-        "total_records": 1220,
+        "total_records": 1254,
         "by_category": {
           "system_event": 7,
-          "task_execution": 1213
+          "task_execution": 1247
         },
         "by_risk_level": {
-          "low": 431,
-          "medium": 789
+          "low": 444,
+          "medium": 810
         },
         "self_modifications": 0,
         "policy_violations": 22,
-        "last_record_at": "2026-02-18T14:49:27.249101+00:00",
-        "chain_length": 1220
+        "last_record_at": "2026-02-18T15:06:44.160954+00:00",
+        "chain_length": 1254
       },
       "moat_4_flywheel": {
-        "total_traces": 577,
+        "total_traces": 594,
         "successful_traces": 0,
-        "failed_traces": 423,
+        "failed_traces": 436,
         "success_rate": 0.0,
         "error_patterns_detected": 1,
         "few_shot_retrievals": 0,
@@ -1039,12 +1046,12 @@
       },
       "moat_1_improvement": {
         "reflections": {
-          "total_reflections": 789,
+          "total_reflections": 810,
           "helpful_reflections": 0,
           "helpfulness_rate": 0.0,
           "top_error_types": {},
-          "reflections_created": 236,
-          "reflections_retrieved": 208
+          "reflections_created": 250,
+          "reflections_retrieved": 222
         },
         "best_variant": 0.0
       },
@@ -1054,33 +1061,33 @@
       "active": true,
       "engine_modules": 53,
       "moats_active": true,
-      "probes_enriched": 129,
-      "judgments_enriched": 128,
+      "probes_enriched": 136,
+      "judgments_enriched": 135,
       "gaps_enriched": 0,
       "interventions_prepared": 0,
-      "outcomes_recorded": 128
+      "outcomes_recorded": 135
     },
     "cortex_bridge": {
       "active": true,
-      "learnings_stored": 128,
-      "memories_retrieved": 129,
+      "learnings_stored": 135,
+      "memories_retrieved": 136,
       "patterns_promoted": 0,
       "promotion_cycles": 0,
       "pending": 0
     },
     "reliability": {
       "active": true,
-      "total_outcomes_tracked": 159,
-      "alerts": 22
+      "total_outcomes_tracked": 167,
+      "alerts": 24
     },
     "autonomy_pipeline": {
       "active": true,
-      "total_runs": 128,
+      "total_runs": 135,
       "successes": 0,
-      "failures": 128,
+      "failures": 135,
       "blocked": 0,
       "deferred": 0,
-      "total_improvements": 256,
+      "total_improvements": 270,
       "avg_duration_ms": 0,
       "pipeline_stages": [
         "sense",
@@ -1096,12 +1103,12 @@
   },
   "metrics": {
     "tasks_completed": 695,
-    "tasks_failed": 186,
+    "tasks_failed": 193,
     "evolutions": 2,
     "goals_generated": 877,
     "api_calls_local": 508,
     "api_calls_cloud": 187,
     "cost_today": 0.0,
-    "uptime_seconds": 18941.72417
+    "uptime_seconds": 19855.241024
   }
 }
