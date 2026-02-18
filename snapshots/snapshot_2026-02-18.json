@@ -1,0 +1,1107 @@
+{
+  "date": "2026-02-18",
+  "status": {
+    "version": "2.0.0",
+    "codename": "AUTONOMY",
+    "state": "AUTONOMOUS",
+    "energy": 100,
+    "cycles": 130550,
+    "uptime_seconds": 16200.02314,
+    "uptime_human": "4:30:00",
+    "start_time": "2026-02-18T01:36:17.103728",
+    "metrics": {
+      "tasks_completed": 695,
+      "tasks_failed": 164,
+      "evolutions": 2,
+      "goals_generated": 877,
+      "api_calls_local": 508,
+      "api_calls_cloud": 187,
+      "cost_today": 0.0,
+      "uptime_seconds": 16205.343888
+    },
+    "subsystems": {
+      "heartbeat": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "motivation": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "events": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "evolution": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "resources": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "dashboard": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "missions": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "memory": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "sensorium": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "feedback": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "goal_executor": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "engine": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "moats": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      },
+      "openclaw_bridge": {
+        "running": true,
+        "restarts": 0,
+        "status": "running",
+        "last_restart": null
+      }
+    },
+    "recent_activity": [
+      {
+        "timestamp": "2026-02-18T05:52:58.869714",
+        "cycle": 130391,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #49: poor \u2014 My overall health is poor due to recurring failures in key agents.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:52:58.869820",
+        "cycle": 130391,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: poor \u2014 My overall health is poor due to recurring failures in key agents.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:55:01.777580",
+        "cycle": 130416,
+        "category": "GOAL_FAIL",
+        "message": "Failed: Improve test coverage for a module",
+        "data": {
+          "error": "some_steps_failed",
+          "goal_full": "Improve test coverage for a module"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:56:03.408428",
+        "cycle": 130428,
+        "category": "GOAL_START",
+        "message": "Executing: Self-evolve a core module using the evolution engine",
+        "data": {
+          "category": "EVOLVE",
+          "priority": 1,
+          "goal_full": "Self-evolve a core module using the evolution engine"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:56:17.541126",
+        "cycle": 130431,
+        "category": "GOAL_FAIL",
+        "message": "Failed: Self-evolve a core module using the evolution engine",
+        "data": {
+          "error": "some_steps_failed",
+          "goal_full": "Self-evolve a core module using the evolution engine"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:57:19.132132",
+        "cycle": 130443,
+        "category": "GOAL_START",
+        "message": "Executing: Build a useful tool and ship to GitHub",
+        "data": {
+          "category": "BUILD",
+          "priority": 6,
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:57:30.943752",
+        "cycle": 130446,
+        "category": "GOAL_FAIL",
+        "message": "Failed: Build a useful tool and ship to GitHub",
+        "data": {
+          "error": "some_steps_failed",
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:58:03.522035",
+        "cycle": 130452,
+        "category": "BENCHMARK",
+        "message": "Performance: 2 improving, 1 declining",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:58:06.404186",
+        "cycle": 130453,
+        "category": "SCORECARD",
+        "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:58:07.733107",
+        "cycle": 130453,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #50: poor \u2014 Current state indicates persistent failures in key agents, leading to overall poor performance.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:58:07.733244",
+        "cycle": 130453,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: poor \u2014 Current state indicates persistent failures in key agents, leading to overall po",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:58:32.711687",
+        "cycle": 130458,
+        "category": "GOAL_START",
+        "message": "Executing: Build a useful tool and ship to GitHub",
+        "data": {
+          "category": "BUILD",
+          "priority": 8,
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:58:35.799151",
+        "cycle": 130459,
+        "category": "GOAL_FAIL",
+        "message": "Failed: Build a useful tool and ship to GitHub",
+        "data": {
+          "error": "no_plan",
+          "goal_full": "Build a useful tool and ship to GitHub"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T05:59:37.582302",
+        "cycle": 130471,
+        "category": "GOAL_START",
+        "message": "Executing: Research and identify OSS contribution opportunity",
+        "data": {
+          "category": "RESEARCH",
+          "priority": 2,
+          "goal_full": "Research and identify OSS contribution opportunity"
+        },
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:03:12.520703",
+        "cycle": 130514,
+        "category": "BENCHMARK",
+        "message": "Performance: 0 improving, 2 declining",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:03:14.934216",
+        "cycle": 130514,
+        "category": "SCORECARD",
+        "message": "Autonomy: 0.0/100 \u2014 Autonomy: 0.0/100 | Strong: learning_velocity(0), execution_success(0), knowledg",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:03:16.048998",
+        "cycle": 130514,
+        "category": "INTROSPECT",
+        "message": "Self-assessment #51: fair \u2014 Recent tasks have shown a significant drop in success rate, with recurring failures across multiple agents.",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:03:16.049137",
+        "cycle": 130514,
+        "category": "INTROSPECT",
+        "message": "Self-assessment: fair \u2014 Recent tasks have shown a significant drop in success rate, with recurring failu",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:06:17.112603",
+        "cycle": 130550,
+        "category": "MISSION",
+        "message": "Executing: Morning prep: publish journal + briefing",
+        "data": {},
+        "energy": 100
+      },
+      {
+        "timestamp": "2026-02-18T06:06:17.126778",
+        "cycle": 130550,
+        "category": "JOURNAL",
+        "message": "Writing daily evolution journal entry",
+        "data": {},
+        "energy": 100
+      }
+    ],
+    "goal_queue_depth": 3,
+    "model_router": {
+      "local_tiny": {
+        "total_calls": 135,
+        "errors": 0,
+        "avg_latency": 0.6037572383880615
+      },
+      "local_medium": {
+        "total_calls": 2755,
+        "errors": 0,
+        "avg_latency": 0.725109977722168
+      },
+      "local_heavy": {
+        "total_calls": 105,
+        "errors": 0,
+        "avg_latency": 7.127159647941589
+      },
+      "cloud_smart": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "cloud_genius": {
+        "total_calls": 0,
+        "errors": 0,
+        "avg_latency": 0
+      },
+      "system_entropy": 0.39448584259463737,
+      "chaos_mode": false
+    },
+    "resource_usage": {
+      "timestamp": "2026-02-18T06:06:17.126932",
+      "memory_mb": 180.396032,
+      "gpu_vram_mb": 3934.0,
+      "gpu_util": 81.0,
+      "disk_used_gb": 427.549847552,
+      "api_cost_today": 0.0,
+      "memory_percent": 0.26788801183811733,
+      "disk_free_gb": 505.270964224,
+      "gpu_vram_total_mb": 24564.0
+    },
+    "missions": {
+      "missions_executed": 15,
+      "current_mission": null,
+      "recent_missions": [
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T03:09:30.462301",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T03:06:52.960735', 'uptime_hours': 1.5088339188888888, 'cycle': 128598, 'skill_inventory': {'modules': 40110, 'functions': 172516, 'classes': 92281, 'total_lines': 14610606}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 157.5
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T03:27:29.787429",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T03:24:41.502662', 'uptime_hours': 1.8060873683333332, 'cycle': 128792, 'skill_inventory': {'modules': 40112, 'functions': 172531, 'classes': 92281, 'total_lines': 14611177}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 168.3
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T03:45:48.593629",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T03:42:37.549442', 'uptime_hours': 2.1052192372222223, 'cycle': 128987, 'skill_inventory': {'modules': 40113, 'functions': 172535, 'classes': 92281, 'total_lines': 14611272}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 191.0
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T04:03:54.026159",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T04:01:02.007084', 'uptime_hours': 2.4115851730555558, 'cycle': 129188, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 172.0
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T04:22:06.179253",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T04:19:01.450152', 'uptime_hours': 2.7110485686111114, 'cycle': 129384, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 184.7
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T04:40:17.616123",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T04:37:12.836779', 'uptime_hours': 3.0141792841666666, 'cycle': 129581, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 184.8
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T04:57:46.841278",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T04:55:25.305453', 'uptime_hours': 3.318827377777778, 'cycle': 129779, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_func",
+          "success": true,
+          "duration_sec": 141.5
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T05:15:11.975826",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T05:12:56.758951', 'uptime_hours': 3.6102771019444444, 'cycle': 129969, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 135.2
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T05:33:22.591134",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T05:30:22.778457', 'uptime_hours': 3.9009240586111114, 'cycle': 130159, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_fun",
+          "success": true,
+          "duration_sec": 179.8
+        },
+        {
+          "mission": "deep_evolution",
+          "timestamp": "2026-02-18T05:51:09.767689",
+          "result": "{'benchmarks': {'timestamp': '2026-02-18T05:48:30.520630', 'uptime_hours': 4.203544330555555, 'cycle': 130357, 'skill_inventory': {'modules': 40116, 'functions': 172541, 'classes': 92281, 'total_lines': 14611529}, 'code_metrics': {'docstring_coverage': '32%', 'type_hint_coverage': '33%', 'total_func",
+          "success": true,
+          "duration_sec": 159.2
+        }
+      ],
+      "github_contributions": 0,
+      "journal_entries": 0,
+      "revenue_services": 0
+    },
+    "insight_applier": {
+      "total_adjustments": 0,
+      "routing_shifts": {},
+      "recent_adjustments": []
+    },
+    "memory_consolidator": {
+      "total_consolidations": 0,
+      "consolidated_episode_ids": 0
+    },
+    "skill_extractor": {
+      "total_extractions": 0,
+      "processed_tasks": 0
+    },
+    "knowledge_enrichment": {
+      "total_enrichments": 0,
+      "attempted_topics": 0,
+      "topics": []
+    },
+    "performance_tracker": {
+      "total_snapshots": 51
+    },
+    "health_diagnosis": {
+      "total_checks": 51,
+      "total_remediations": 0,
+      "last_health_score": 95
+    },
+    "auto_researcher": {
+      "total_researches": 0,
+      "concepts_researched": 0,
+      "recent_concepts": []
+    },
+    "failure_predictor": {
+      "predictions_made": 16,
+      "predictions_correct": 0,
+      "accuracy": 0.0,
+      "high_risk_prevented": 0
+    },
+    "smart_goals": {
+      "total_goals_generated": 4,
+      "recent_goals": [
+        "fix recurring failure: agent 'task_executor' has 100.0% failure rate",
+        "fix recurring failure: agent 'evolution_validator' has 69.4% failure rate",
+        "improve declining metric: episodic memories (down 100%)",
+        "practice skill: 62211468dcc78c0d"
+      ]
+    },
+    "evolution_validator": {
+      "validations_run": 50,
+      "validations_passed": 22,
+      "validations_rejected": 28,
+      "pass_rate": 0.44
+    },
+    "task_executor": {
+      "total_executions": 107,
+      "successes": 0,
+      "failures": 106,
+      "success_rate": 0.0
+    },
+    "autonomy_scorecard": {
+      "total_scores": 51,
+      "latest_score": 0.0
+    },
+    "discovery_processor": {
+      "discoveries_processed": 0,
+      "goals_created": 0,
+      "docs_created": 0
+    },
+    "introspection": {
+      "total_introspections": 51,
+      "last_health": "fair",
+      "last_one_liner": "Recent tasks have shown a significant drop in success rate, with recurring failures across multiple agents."
+    },
+    "shell_executor": {
+      "total_executions": 120,
+      "successes": 18,
+      "failures": 101,
+      "success_rate": 0.15,
+      "total_runtime_sec": 7083.1,
+      "allowed_commands": 47
+    },
+    "notifier": {
+      "total_sent": 18,
+      "total_suppressed": 82,
+      "stored_alerts": 90,
+      "channels": {
+        "file": true,
+        "desktop": true,
+        "webhook": false
+      }
+    },
+    "daily_journal": {
+      "journals_generated": 0,
+      "last_journal_date": null
+    },
+    "adaptive_scheduler": {
+      "current_interval_sec": 1365,
+      "current_interval_min": 22.8,
+      "total_adjustments": 51,
+      "last_factors": {
+        "time_of_day": "night (1.5x)",
+        "energy": "high 100% (0.7x)",
+        "queue": "active 3 goals (0.85x)",
+        "activity": "active 8/20 (0.85x)",
+        "health": "good 95/100 (1.0x)"
+      }
+    },
+    "dependency_graph": {
+      "total_nodes": 30,
+      "total_edges": 45,
+      "tiers": {
+        "core": 6,
+        "intelligence": 1,
+        "memory": 1,
+        "drive": 2,
+        "meta": 3,
+        "execution": 3,
+        "interface": 2,
+        "perception": 1,
+        "learning": 7,
+        "monitoring": 4
+      },
+      "critical_path": [
+        "cortex",
+        "event_bus",
+        "heartbeat",
+        "resource_guard",
+        "state_manager",
+        "task_supervisor",
+        "model_router",
+        "motivation"
+      ]
+    },
+    "capability_registry": {
+      "total_capabilities": 21,
+      "categories": {
+        "llm": 4,
+        "shell": 6,
+        "memory": 4,
+        "file": 2,
+        "analysis": 3,
+        "communication": 2
+      },
+      "most_used": [
+        [
+          "llm_local_tiny",
+          0
+        ],
+        [
+          "llm_local_medium",
+          0
+        ],
+        [
+          "llm_cloud_smart",
+          0
+        ],
+        [
+          "llm_cloud_genius",
+          0
+        ],
+        [
+          "shell_python",
+          0
+        ]
+      ]
+    },
+    "conversation_manager": {
+      "active_conversations": 0,
+      "total_created": 0,
+      "total_messages": 0
+    },
+    "codebase_analyzer": {
+      "analyses_run": 0,
+      "last_files_analyzed": 0,
+      "last_total_lines": 0,
+      "evolution_targets": 0
+    },
+    "goal_decomposer": {
+      "decompositions": 0,
+      "subgoals_created": 0
+    },
+    "experiment_tracker": {
+      "active_experiments": 0,
+      "total_experiments": 0,
+      "improved_count": 0
+    },
+    "engine_registry": {
+      "total_modules": 53,
+      "ready": 53,
+      "errored": 0,
+      "healthy": 53,
+      "health_pct": 100.0,
+      "booted": true,
+      "boot_id": "boot_1771407377_5d4abe48",
+      "by_wave": {
+        "WAVE1_CORE": {
+          "total": 10,
+          "ready": 10,
+          "error": 0
+        },
+        "WAVE2_INTELLIGENCE": {
+          "total": 14,
+          "ready": 14,
+          "error": 0
+        },
+        "WAVE3_MASTERY": {
+          "total": 12,
+          "ready": 12,
+          "error": 0
+        },
+        "WAVE4_PLATFORM": {
+          "total": 8,
+          "ready": 8,
+          "error": 0
+        },
+        "WAVE5_FINANCE": {
+          "total": 9,
+          "ready": 9,
+          "error": 0
+        }
+      },
+      "by_status": {
+        "ready": 53
+      }
+    },
+    "engine_orchestrator": {
+      "state": "running",
+      "cycle_count": 85,
+      "cycles": {
+        "fast": 71,
+        "medium": 10,
+        "slow": 3,
+        "daily": 1
+      },
+      "total_problems_solved": 0,
+      "total_improvements": 0,
+      "queue": {
+        "pending": 17,
+        "in_progress": 0,
+        "completed": 0,
+        "total": 17
+      },
+      "engines_loaded": [
+        "safety",
+        "reflexion",
+        "anomaly_detector",
+        "auto_healer",
+        "resource_manager",
+        "log_aggregator",
+        "realtime_learning",
+        "market_data",
+        "compliance_engine",
+        "dashboard",
+        "meta_prompter",
+        "aide",
+        "knowledge_graph",
+        "task_planner",
+        "curriculum_learner",
+        "semantic_search",
+        "self_evaluation",
+        "prompt_library",
+        "regime_detector",
+        "financial_nlp",
+        "trade_autonomy",
+        "stop",
+        "dgm",
+        "complexity_analyzer",
+        "experiment_framework",
+        "memory_consolidation",
+        "skill_transfer",
+        "synthetic_data",
+        "strategy_evolver",
+        "alpha_researcher"
+      ],
+      "safety_stats": {
+        "sandbox_executions": 0,
+        "sandbox_violations": 0,
+        "spec_checks": 66,
+        "spec_denials": 0,
+        "consistency_checks": 0,
+        "inconsistencies": 0,
+        "gates_passed": 0,
+        "gates_failed": 0,
+        "auto_reverts": 0,
+        "human_checkpoints": 2,
+        "human_auto_approved": 0
+      },
+      "reflexion_stats": {
+        "problems_attempted": 94,
+        "problems_solved": 0,
+        "solve_rate": 0.0,
+        "total_reflections": 0,
+        "total_attempts": 192
+      },
+      "anomaly_detector_stats": {
+        "tracked_metrics": 0,
+        "total_anomalies": 0,
+        "recent_anomalies": 0,
+        "buffer_sizes": {}
+      },
+      "auto_healer_stats": {
+        "recoveries_attempted": 0,
+        "recoveries_successful": 0,
+        "recovery_rate": 0.0,
+        "circuits": {}
+      },
+      "resource_manager_stats": {
+        "queue_size": 0,
+        "total_enqueued": 0,
+        "total_dequeued": 0,
+        "active_tasks": 0,
+        "loaded_models": 0,
+        "cost_summary": {
+          "total_cost_usd": 0,
+          "total_tokens": 0,
+          "by_model": {}
+        }
+      },
+      "log_aggregator_stats": {
+        "total_logs": 0,
+        "unresolved_patterns": 0,
+        "error_rate": {
+          "window_s": 300,
+          "total": 0,
+          "errors": 0,
+          "error_rate": 0.0,
+          "alerting": false
+        }
+      },
+      "realtime_learning_stats": {
+        "total_events": 0,
+        "events_with_outcome": 0,
+        "replay_buffer_size": 0,
+        "drifts_24h": 0,
+        "models": {
+          "success_predictor": {
+            "type": "linear",
+            "updates": 0,
+            "features": 0,
+            "recent_loss": 0
+          },
+          "latency_tracker": {
+            "type": "ewma",
+            "updates": 0,
+            "features": 0,
+            "recent_loss": 0
+          },
+          "quality_predictor": {
+            "type": "linear",
+            "updates": 0,
+            "features": 0,
+            "recent_loss": 0
+          }
+        },
+        "event_count": 0
+      },
+      "market_data_stats": {
+        "total_bars": 0,
+        "unique_tickers": 0,
+        "tracked_tickers": 15,
+        "quality_issues": 0,
+        "data_range": {
+          "earliest": null,
+          "latest": null
+        },
+        "streaming": {
+          "subscriptions": 0
+        },
+        "sources": [
+          "yahoo",
+          "alpha_vantage",
+          "polygon",
+          "fred"
+        ],
+        "indicators": [
+          "FEDFUNDS",
+          "DGS10",
+          "DGS2",
+          "T10Y2Y",
+          "CPIAUCSL",
+          "UNRATE",
+          "GDP",
+          "VIXCLS",
+          "DTWEXBGS",
+          "BAMLH0A0HYM2",
+          "MORTGAGE30US",
+          "UMCSENT",
+          "INDPRO",
+          "PAYEMS",
+          "PCEPI"
+        ]
+      },
+      "meta_prompter_stats": {
+        "total_variants": 0,
+        "current_generation": 0,
+        "current_fitness": 0,
+        "evolutions": 0
+      },
+      "aide_stats": {
+        "total_nodes_created": 0,
+        "search_sessions": 0,
+        "problems_solved": 0
+      },
+      "knowledge_graph_stats": {
+        "entity_count": 0,
+        "relationship_count": 0,
+        "entity_types": {},
+        "relationship_types": {},
+        "avg_degree": 0.0
+      },
+      "task_planner_stats": {
+        "total_plans": 0,
+        "total_tasks": 0,
+        "tasks_completed": 0,
+        "plans_created": 0
+      },
+      "curriculum_learner_stats": {
+        "total_practice": 0,
+        "problems_generated": 0,
+        "total_skills": 16,
+        "mastered": 0,
+        "in_progress": 0,
+        "not_started": 16,
+        "overall_mastery": 0.0,
+        "categories": {
+          "advanced": {
+            "skills": 3,
+            "avg_mastery": 0.0,
+            "mastered": 0
+          },
+          "coding": {
+            "skills": 5,
+            "avg_mastery": 0.0,
+            "mastered": 0
+          },
+          "debugging": {
+            "skills": 3,
+            "avg_mastery": 0.0,
+            "mastered": 0
+          },
+          "engineering": {
+            "skills": 5,
+            "avg_mastery": 0.0,
+            "mastered": 0
+          }
+        }
+      },
+      "semantic_search_stats": {
+        "total_chunks": 0,
+        "total_files": 0,
+        "total_searches": 0,
+        "avg_search_ms": 0,
+        "chunks_by_type": {}
+      },
+      "self_evaluation_stats": {
+        "total_evaluations": 0,
+        "avg_normalized_score": 0,
+        "avg_confidence": 0,
+        "calibration_error": 0.0,
+        "skill_gaps": []
+      },
+      "prompt_library_stats": {
+        "total_templates": 6,
+        "total_versions": 6,
+        "total_uses": 0,
+        "active_ab_tests": 0,
+        "by_category": {
+          "code_gen": 1,
+          "code_review": 1,
+          "debugging": 1,
+          "refactoring": 1,
+          "security": 1,
+          "test_gen": 1
+        }
+      },
+      "stop_stats": {
+        "total_scaffolds": 0,
+        "best_utility": 0,
+        "improvements_made": 0,
+        "total_candidates": 0
+      },
+      "dgm_stats": {
+        "total_entries": 0,
+        "by_type": {},
+        "grid": {
+          "occupied_cells": 0,
+          "total_possible": 125,
+          "coverage": 0.0,
+          "avg_quality": 0
+        }
+      },
+      "complexity_analyzer_stats": [],
+      "experiment_framework_stats": {
+        "total_experiments": 0,
+        "running": 0,
+        "completed": 0,
+        "total_events": 0
+      },
+      "memory_consolidation_stats": {
+        "total_memories": 0,
+        "by_type": {},
+        "working_memory_size": 0,
+        "working_memory_capacity": 9,
+        "avg_strength": 0,
+        "avg_importance": 0,
+        "due_for_review": 0
+      },
+      "skill_transfer_stats": {
+        "total_skills": 5,
+        "total_transfers": 0,
+        "successful_transfers": 0,
+        "transfer_success_rate": 0.0,
+        "avg_transfer_score": 0,
+        "by_domain": {
+          "meta": {
+            "count": 5,
+            "avg_mastery": 0.0
+          }
+        }
+      },
+      "synthetic_data_stats": {
+        "total_tasks": 0,
+        "total_solutions": 0,
+        "verified_solutions": 0,
+        "training_pairs": 0,
+        "avg_quality": 0,
+        "coverage": {
+          "total_pairs": 1,
+          "by_domain": {},
+          "distribution": {},
+          "target_distribution": {
+            "coding": 0.3,
+            "reasoning": 0.15,
+            "debugging": 0.15,
+            "optimization": 0.1,
+            "testing": 0.1,
+            "refactoring": 0.1,
+            "math": 0.05,
+            "design": 0.05
+          },
+          "gaps": {
+            "coding": 0.3,
+            "reasoning": 0.15,
+            "debugging": 0.15,
+            "optimization": 0.1,
+            "testing": 0.1,
+            "refactoring": 0.1
+          }
+        }
+      },
+      "registry": {
+        "total_modules": 53,
+        "ready": 53,
+        "errored": 0,
+        "healthy": 53,
+        "health_pct": 100.0,
+        "booted": true,
+        "boot_id": "boot_1771407377_5d4abe48",
+        "by_wave": {
+          "WAVE1_CORE": {
+            "total": 10,
+            "ready": 10,
+            "error": 0
+          },
+          "WAVE2_INTELLIGENCE": {
+            "total": 14,
+            "ready": 14,
+            "error": 0
+          },
+          "WAVE3_MASTERY": {
+            "total": 12,
+            "ready": 12,
+            "error": 0
+          },
+          "WAVE4_PLATFORM": {
+            "total": 8,
+            "ready": 8,
+            "error": 0
+          },
+          "WAVE5_FINANCE": {
+            "total": 9,
+            "ready": 9,
+            "error": 0
+          }
+        },
+        "by_status": {
+          "ready": 53
+        }
+      }
+    },
+    "moat_system": {
+      "moat_5_audit": {
+        "total_records": 1077,
+        "by_category": {
+          "system_event": 6,
+          "task_execution": 1071
+        },
+        "by_risk_level": {
+          "low": 380,
+          "medium": 697
+        },
+        "self_modifications": 0,
+        "policy_violations": 20,
+        "last_record_at": "2026-02-18T14:03:13.257329+00:00",
+        "chain_length": 1077
+      },
+      "moat_4_flywheel": {
+        "total_traces": 517,
+        "successful_traces": 0,
+        "failed_traces": 373,
+        "success_rate": 0.0,
+        "error_patterns_detected": 1,
+        "few_shot_retrievals": 0,
+        "flywheel_active": true
+      },
+      "moat_3_memory": {
+        "active_strategy": "default"
+      },
+      "moat_2_tools": {
+        "total_tools": 0,
+        "total_usages": 0,
+        "categories": {}
+      },
+      "moat_1_improvement": {
+        "reflections": {
+          "total_reflections": 697,
+          "helpful_reflections": 0,
+          "helpfulness_rate": 0.0,
+          "top_error_types": {},
+          "reflections_created": 194,
+          "reflections_retrieved": 168
+        },
+        "best_variant": 0.0
+      },
+      "kill_switch_active": false
+    },
+    "engine_bridge": {
+      "active": true,
+      "engine_modules": 53,
+      "moats_active": true,
+      "probes_enriched": 107,
+      "judgments_enriched": 106,
+      "gaps_enriched": 0,
+      "interventions_prepared": 0,
+      "outcomes_recorded": 106
+    },
+    "cortex_bridge": {
+      "active": true,
+      "learnings_stored": 106,
+      "memories_retrieved": 107,
+      "patterns_promoted": 0,
+      "promotion_cycles": 0,
+      "pending": 0
+    },
+    "reliability": {
+      "active": true,
+      "total_outcomes_tracked": 135,
+      "alerts": 17
+    },
+    "autonomy_pipeline": {
+      "active": true,
+      "total_runs": 106,
+      "successes": 0,
+      "failures": 106,
+      "blocked": 0,
+      "deferred": 0,
+      "total_improvements": 212,
+      "avg_duration_ms": 0,
+      "pipeline_stages": [
+        "sense",
+        "evaluate",
+        "prepare",
+        "context",
+        "execute",
+        "record",
+        "learn",
+        "reflect"
+      ]
+    }
+  },
+  "metrics": {
+    "tasks_completed": 695,
+    "tasks_failed": 164,
+    "evolutions": 2,
+    "goals_generated": 877,
+    "api_calls_local": 508,
+    "api_calls_cloud": 187,
+    "cost_today": 0.0,
+    "uptime_seconds": 16195.308498
+  }
+}
